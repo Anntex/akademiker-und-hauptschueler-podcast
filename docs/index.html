@@ -199,8 +199,12 @@
     <!-- Impressum -->
     <section id="impressum" class="section">
         <div class="container">
-            <h2>📄 Impressum</h2>
-            <div class="impressum-content">
+            <div class="impressum-toggle">
+                <button class="impressum-button" onclick="toggleImpressum()">
+                    📄 Impressum & Rechtliches <span class="toggle-icon">▼</span>
+                </button>
+            </div>
+            <div class="impressum-content" id="impressum-content">
                 <div class="impressum-section">
                     <h3>Angaben gemäß § 5 TMG:</h3>
                     <p><strong>Verantwortlich für den Inhalt:</strong></p>
@@ -229,9 +233,6 @@
                     <p>Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers.</p>
                 </div>
 
-                <div class="impressum-note">
-                    <p><strong>Hinweis:</strong> Bitte ergänzen Sie die fehlenden Kontaktdaten (Adresse, E-Mail) vor der Veröffentlichung der Website, um die gesetzlichen Anforderungen des TMG zu erfüllen.</p>
-                </div>
             </div>
         </div>
     </section>

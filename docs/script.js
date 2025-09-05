@@ -107,3 +107,20 @@ document.addEventListener('DOMContentLoaded', function() {
     window.addEventListener('resize', createMobileMenu);
     createMobileMenu();
 });
+
+// Toggle function for Impressum section
+function toggleImpressum() {
+    const content = document.getElementById('impressum-content');
+    const button = document.querySelector('.impressum-button');
+    const icon = document.querySelector('.toggle-icon');
+    
+    if (content.classList.contains('expanded')) {
+        content.classList.remove('expanded');
+        icon.textContent = '▼';
+        button.setAttribute('aria-expanded', 'false');
+    } else {
+        content.classList.add('expanded');
+        icon.textContent = '▲';
+        button.setAttribute('aria-expanded', 'true');
+    }
+}
