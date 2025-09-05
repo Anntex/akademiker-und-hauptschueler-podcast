@@ -1,10 +1,10 @@
 # 🎙️ Selbst.Verstaendlich?! - Der Podcast
 
-![Podcast Badge](https://img.shields.io/badge/Podcast-Selbst.Verständlich?!-blue)
+![Podcast Badge](https://img.shields.io/badge/Podcast-Selbst.Verstaendlich?!-blue)
 ![Status](https://img.shields.io/badge/Status-Aktiv-green)
 ![Sprache](https://img.shields.io/badge/Sprache-Deutsch-red)
 
-> **🎧 Bleib neugierig, bleib am Ball - Selbst.Verständnlich?! Ein Podcast rund um Persönlichkeitsentwicklung, Beruf, Karriere, KI und alles was das Leben als junger Erwachsener mit sich bringt.**
+> **🎧 Bleib neugierig, bleib am Ball - Selbst.Verständlich?! Ein Podcast rund um Persönlichkeitsentwicklung, Beruf, Karriere, KI und alles was das Leben als junger Erwachsener mit sich bringt.**
 
 ## ⚖️ Disclaimer
 
