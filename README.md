@@ -1,6 +1,6 @@
 # 🎙️ Selbst.Verstaendlich?! - Der Podcast
 
-![Podcast Badge](https://img.shields.io/badge/Podcast-Selbst.Verstaendlich?!-blue)
+![Podcast Badge](https://img.shields.io/badge/Podcast-Selbst.Verst%C3%A4ndlich%3F%21-blue)
 ![Status](https://img.shields.io/badge/Status-Aktiv-green)
 ![Sprache](https://img.shields.io/badge/Sprache-Deutsch-red)
 
