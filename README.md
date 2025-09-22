@@ -1,10 +1,10 @@
-# 🎙️ Selbst.Verstaendlich?! - Der Podcast
+# 🎙️ Der Akademiker und der Hauptschüler - Der Podcast
 
 ![Podcast Badge](https://img.shields.io/badge/Podcast-Selbst.Verst%C3%A4ndlich%3F%21-blue)
 ![Status](https://img.shields.io/badge/Status-Aktiv-green)
 ![Sprache](https://img.shields.io/badge/Sprache-Deutsch-red)
 
-> **🎧 Bleib neugierig, bleib am Ball - Selbst.Verständlich?! Ein Podcast rund um Persönlichkeitsentwicklung, Beruf, Karriere, KI und alles was das Leben als junger Erwachsener mit sich bringt.**
+> **🎧 Bleib neugierig, bleib am Ball! Ein Podcast rund um Persönlichkeitsentwicklung, Beruf, Karriere, KI und alles was das Leben als junger Erwachsener mit sich bringt.**
 
 ## ⚖️ Disclaimer
 
@@ -15,7 +15,7 @@
 
 ## 📋 Über dieses Repository
 
-Dieses Repository dient als **Notizen- und Vorbereitungssammlung** für den Podcast "Selbst.Verständlich?!". Hier dokumentieren und organisieren die Hosts ihre Episodeninhalte, Recherchen und Diskussionsthemen.
+Dieses Repository dient als **Notizen- und Vorbereitungssammlung** für den Podcast "Der Akademiker und der Hauptschüler". Hier dokumentieren und organisieren die Hosts ihre Episodeninhalte, Recherchen und Diskussionsthemen.
 
 ## 👥 Die Hosts
 
@@ -46,7 +46,7 @@ Unser Podcast behandelt relevante Themen für junge Erwachsene und Berufserfahre
 
 | Plattform | Link | Status |
 |-----------|------|--------|
-| 🎬 **YouTube** | [Link einfügen] | 🔄 Coming Soon |
+| 🎬 **YouTube** | [Der Akademiker und der Hauptschüler](https://www.youtube.com/@GreweJäger) | ✅ Veröffentlicht |
 | 🎵 **Spotify** | [Link einfügen] | 🔄 Coming Soon |
 | 🎧 **Apple Podcasts** | [Link einfügen] | 🔄 Coming Soon |
 | 📻 **Google Podcasts** | [Link einfügen] | 🔄 Coming Soon |
@@ -57,9 +57,9 @@ Unser Podcast behandelt relevante Themen für junge Erwachsene und Berufserfahre
 
 | Episode | Titel | Thema | Status | Link Youtube |
 |---------|-------|-------|--------|--------|
-| 01 | [Intro - Über das Leben und dessen Sinn](./episode01-intro/) | Einführung, Lebensentscheidungen | ✅ Aufgenommen | [Link Youtube](https://youtu.be/GzPASL03-Wk) |
-| 02 | [Rund um den Berufsstart](./episode02-berufstart/) | Berufseinstieg, Studium vs. Ausbildung | 🔄 In Planung | [Link einfügen] |
-| 03 | Coming Soon... | TBD | 🔄 In Planung |
+| 01 | [Intro - Über das Leben und dessen Sinn](./episode01-intro/) | Einführung, Lebensentscheidungen | ✅ Aufgenommen | [Link Youtube](https://www.youtube.com/watch?v=2dzjaFj-JW4) |
+| 02 | [Rund um den Berufsstart](./episode02-berufstart/) | Berufseinstieg, Studium vs. Ausbildung | ✅ Aufgenommen | [Berufseinstieg, Studium vs. Ausbildung](https://www.youtube.com/watch?v=yUzoQfdNvKQ) |
+| 03 | Coming Soon... | Leadership, Moderne vs. klassischeMitarbeiterführung | 🔄 In Planung | [Link folgt]|
 
 ## 🎤 Episoden-Vorbereitung
 
