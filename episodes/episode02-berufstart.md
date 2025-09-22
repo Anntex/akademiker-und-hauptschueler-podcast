@@ -1,4 +1,4 @@
-# Episode 02 von Merk.Würdig?! - Rund um den Berufsstart
+# Episode 02 von "Der Akademiker und der Hauptschüler" - Rund um den Berufsstart
 
 In unserer ersten Folge haben wir über das Leben im allgemeinen gesprochen und wie wir zu unseren Entscheidungen kamen.
 Kern war: Man ist selbst sein Glückes schmied. Konsistenz im Tun, Visualisierung der Ziele und das verlassen der Komfortzone sind wichtig um "Glück" zu erfahren.
