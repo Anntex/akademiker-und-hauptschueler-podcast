@@ -57,9 +57,10 @@ Unser Podcast behandelt relevante Themen für junge Erwachsene und Berufserfahre
 
 | Episode | Titel | Thema | Status | Link Youtube |
 |---------|-------|-------|--------|--------|
-| 01 | [Intro - Über das Leben und dessen Sinn](./episode01-intro/) | Einführung, Lebensentscheidungen | ✅ Aufgenommen | [Link Youtube](https://www.youtube.com/watch?v=2dzjaFj-JW4) |
-| 02 | [Rund um den Berufsstart](./episode02-berufstart/) | Berufseinstieg, Studium vs. Ausbildung | ✅ Aufgenommen | [Berufseinstieg, Studium vs. Ausbildung](https://www.youtube.com/watch?v=yUzoQfdNvKQ) |
-| 03 | Coming Soon... | Leadership, Moderne vs. klassischeMitarbeiterführung | 🔄 In Planung | [Link folgt]|
+| 01 | [Intro - Über das Leben und dessen Sinn](./episodes/episode01-intro.md) | Einführung, Lebensentscheidungen | ✅ Aufgenommen | [Link Youtube](https://www.youtube.com/watch?v=2dzjaFj-JW4) |
+| 02 | [Rund um den Berufsstart](./episodes/episode02-berufstart.md) | Berufseinstieg, Studium vs. Ausbildung | ✅ Aufgenommen | [Berufseinstieg, Studium vs. Ausbildung](https://www.youtube.com/watch?v=yUzoQfdNvKQ) |
+| 03 | [Leadership im Unternehmen](./episodes/episode03-leadership.md) | Leadership, Moderne vs. klassischeMitarbeiterführung | ✅ Aufgenommen | [Leadership im Unternehmen](https://www.youtube.com/watch?v=EUpEDw248M4)|
+| 04 | [Macht uns KI dümmer?](./episodes/episode04-ki-macht-uns-dumm.md) | KI, Cognitive Offloading, Schüler/Studierende | ✅ Aufgenommen | [Link folgt]|
 
 ## 🎤 Episoden-Vorbereitung
 
