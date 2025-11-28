@@ -57,11 +57,17 @@ Unser Podcast behandelt relevante Themen für junge Erwachsene und Berufserfahre
 
 | Episode | Titel | Thema | Status | Link Youtube |
 |---------|-------|-------|--------|--------|
-| 01 | [Intro - Über das Leben und dessen Sinn](./episodes/episode01-intro.md) | Einführung, Lebensentscheidungen | ✅ Aufgenommen | [Link Youtube](https://www.youtube.com/watch?v=2dzjaFj-JW4) |
-| 02 | [Rund um den Berufsstart](./episodes/episode02-berufstart.md) | Berufseinstieg, Studium vs. Ausbildung | ✅ Aufgenommen | [Berufseinstieg, Studium vs. Ausbildung](https://www.youtube.com/watch?v=yUzoQfdNvKQ) |
-| 03 | [Leadership im Unternehmen](./episodes/episode03-leadership.md) | Leadership, Moderne vs. klassische Mitarbeiterführung | ✅ Aufgenommen | [Leadership im Unternehmen](https://www.youtube.com/watch?v=EUpEDw248M4)|
-| 04 | [Macht uns KI dümmer?](./episodes/episode04-ki-macht-uns-dumm.md) | KI-Nutzung, Cognitive Offloading, Bildung | ✅ Aufgenommen | [Link folgt] |
-| 05 | [KI-Startups in Deutschland – Boom oder zu spät?](./episodes/episode05-ai-boom.md) | KI-Startups, Gründung, Innovation | 🔄 In Planung | [Link folgt] |
+| 11 | [KI und Hybrid Selling im B2B-Vertrieb](./episodes/episode11_ki-b2b.md) | KI im Vertrieb, Hybrid Selling, Digitale Transformation | 🔄 In Planung | – |
+| 10 | [Social Media und mentale Gesundheit](./episodes/episode10-social_media.md) | Social Media, Jugend, Psychische Gesundheit, Regulierung | 🎤 Aufgenommen | [Link folgt] |
+| 09 | [Gen Z und die Zukunft der Arbeitswelt](./episodes/episode09_genz.md) | Generation Z, Arbeitsmarkt, Work-Life-Balance, Purpose | 🎤 Aufgenommen | [Link folgt] |
+| 08 | [Deutsche Automobilindustrie Q4 2025](./episodes/episode08-autoindustrie-q425.md) | Mercedes, Porsche, VW, Elektromobilität, Transformation | 🎤 Aufgenommen | [Link folgt] |
+| 07 | [KI-Startups in Deutschland – Boom oder zu spät?](./episodes/episode07-ai-boom.md) | KI-Startups, Gründung, Innovation, DACH-Markt | ✅ Aufgenommen | [KI-Startups](https://www.youtube.com/watch?v=t4Cc5r9HZzM&t=110s) |
+| 06 | [Macht uns KI dümmer?](./episodes/episode06-ki-macht-uns-dumm.md) | KI-Nutzung, Cognitive Offloading, Bildung | ✅ Aufgenommen | [Einfluss KI für unser Lernen](https://www.youtube.com/watch?v=_md2SMNgD4I&t=8s) |
+| 05 | [Low Performer im Unternehmen](./episodes/episode05-low_performer.md) | Mitarbeiterführung, Leistung, Verantwortung | ✅ Aufgenommen | [Low Performer Talk](https://www.youtube.com/watch?v=O7xweY1QNV4&t=3s) |
+| 04 | [Krise der deutschen Automobilindustrie](./episodes/episode04-autoindustrie_im_fall.md) | VW, Porsche, Mercedes, Elektromobilität | ✅ Aufgenommen | [2025 Q3 Autoindustrie](https://www.youtube.com/watch?v=nvI3Ki_6xQI) |
+| 03 | [Leadership im Unternehmen](./episodes/episode03-leadership.md) | Leadership, Moderne vs. klassische Mitarbeiterführung | ✅ Aufgenommen | [Leadership im Unternehmen](https://www.youtube.com/watch?v=EUpEDw248M4) |
+| 02 | [Rund um den Berufsstart](./episodes/episode02-berufstart.md) | Berufseinstieg, Studium vs. Ausbildung | ✅ Aufgenommen | [Berufseinstieg](https://www.youtube.com/watch?v=yUzoQfdNvKQ) |
+| 01 | [Intro - Über das Leben und dessen Sinn](./episodes/episode01-intro.md) | Einführung, Lebensentscheidungen | ✅ Aufgenommen | [Intro](https://www.youtube.com/watch?v=2dzjaFj-JW4) |
 
 ## 🎤 Episoden-Vorbereitung
 
