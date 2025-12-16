@@ -1,0 +1,603 @@
+## Episode 14: KI in 2025 – Die Landkarte der Foundation Models (mit Zeitstrahl)
+
+Das Jahr 2025 neigt sich dem Ende zu – und wenn man es in einem Bild beschreiben müsste, dann wäre es **kein Wettrennen um „das größte Modell"** mehr, sondern eine **Landkarte aus Spezialisierungen**:
+
+- Modelle, die **denken** (Reasoning) statt nur zu „autovervollständigen".
+- Modelle, die **sehen, hören, sprechen und handeln** (Multimodal + Agenten).
+- Plattformen, die nicht nur ein Modell liefern, sondern **Workflows, Tool-Use, Connectoren und Governance**.
+- Und parallel: ein immer größerer Teil der „Intelligenz" wandert **auf Geräte** und in **Private-Cloud-Umgebungen**.
+
+Diese Folge ist eine Story mit Spannungsbogen – und am Ende hast du einen Zeitstrahl und eine klare Übersicht, **wer 2025 welche Pfeile in die Landkarte geschossen hat**.
+
+---
+
+## Die große Storyline 2025 (mit Spannungsbogen)
+
+### Akt 1 (Q1): Der „Reasoning-Schock" – und warum 2025 anders wurde
+
+2024 war das Jahr, in dem Multimodalität im Mainstream ankam. **2025** war das Jahr, in dem viele Teams gemerkt haben: Für komplexe Aufgaben (Planen, Debuggen, Beweisen, Entscheiden) zählt nicht nur Sprachfluss – sondern **verlässliches Schritt-für-Schritt-Denken**.
+
+Ein Symbol dafür: **DeepSeek-R1** (Januar 2025) – ein offen verfügbares Reasoning-Modell, das schnell enorme Aufmerksamkeit bekam und sogar große Plattformen zu Integrationen motivierte.
+
+Die Botschaft an den Markt war klar:
+- **Reasoning ist ein Produktfeature** (nicht nur ein Benchmark-Punkt).
+- **Open(-ish) Modelle** können plötzlich ein „Preis/Leistung"-Beben auslösen.
+- Cloud-Anbieter und Enterprise-Stacks wollen **Modelle austauschbar** machen.
+
+### Akt 2 (Q2): „Kann das Modell arbeiten?" – Agenten werden zur Messlatte
+
+Im Frühjahr/Sommer verschiebt sich die Frage in vielen Unternehmen: „Wie gut schreibt das Modell?" → „Wie gut **arbeitet** es?"
+
+- Anthropic setzt mit **Hybrid-Reasoning** (Claude 3.7 Sonnet) und später **Claude 4** ein Signal Richtung „lange Aufgaben am Stück".
+- OpenAI treibt ChatGPT in Richtung **Agenten**, die in einer virtuellen Arbeitsumgebung Aufgaben erledigen können.
+- Google spielt den Plattform-Vorteil aus: Search, Workspace, Android/Pixel/Cloud – und baut „Agenten" als Produktkategorie auf.
+- Microsoft präsentiert auf der **Build 2025** seine Vision eines **„Open Agentic Web"** – KI-Agenten, die zusammenarbeiten und autonom handeln.
+
+### Akt 3 (Q3): Multimodal wird erwachsen – und „On-Device" wird strategisch
+
+Der Sommer/Herbst bringt zwei Trends zusammen:
+
+- **Video-Modelle** gehen von Demo zu „Produkt" (Sora 2, Veo 3.1).
+- **On-Device Foundation Models** werden ernsthaft produktisiert (Apple Foundation Models Framework): weniger Latenz, mehr Datenschutz, neue UX.
+- **xAI** integriert **Grok 4** direkt in Tesla-Fahrzeuge – KI im Auto wird Realität.
+
+Parallel wird Governance konkreter: In der EU greifen 2025 erste Pflichten für General-Purpose AI (Foundation Models) zeitlich ein – das verändert Roadmaps, Dokumentation, Risiko-Management und Lizenzstrategien.
+
+### Akt 4 (Q4): Die Plattform-Phase – „Modelle" werden zu Betriebssystem-Bausteinen
+
+Im letzten Quartal ist der Ton überall ähnlich:
+
+- OpenAI: **Dev-Ökosystem + Agent-Tooling + Video + neue Modellgeneration + Browser (Atlas)**.
+- Google: **Gemini 3** wird direkt in Search eingebettet, plus **Deep Research Agent** und **Workspace Studio**.
+- Anthropic: „Computer Use", Coding-Fokus, Standardisierung (MCP), **Claude Code erreicht $1B Revenue** und **Bun-Akquisition**.
+- Perplexity: **Comet Browser** (vor OpenAI Atlas!) als Angriff auf klassische Browser + KI-native Suche.
+- xAI: **$200B Bewertung**, X-Feed wird komplett Grok-powered.
+
+2025 endet damit nicht in einem einzigen „Sieger-Modell", sondern in einer neuen Realität:
+
+> **Foundation Models sind nicht mehr nur Modelle – sie sind Stacks aus Modell + Tools + Datenzugriff + Orchestrierung + Compliance.**
+
+---
+
+## Zeitliche Abfolge 2025: Die wichtigsten Meilensteine (kuratiert)
+
+### Januar 2025
+- **DeepSeek-V3 (10.01.)**: In der Presse als „China-Moment" diskutiert – ein starkes Modell als Basis für den massiven Januar-Hype rund um DeepSeek.
+- **DeepSeek-R1 (20.01.)**: Open(er) Reasoning-Modell löst Aufmerksamkeitsschub für „thinking models" aus. **Nvidia-Aktie stürzt um ~17% ab**, fast **$600 Mrd. Marktwert** verdampfen an einem Tag – der „DeepSeek-Schock".
+- **Perplexity (23.01.)**: **Perplexity Assistant** für Android – KI-Assistent, der Reservierungen bucht, Erinnerungen setzt (15 Sprachen).
+- **Microsoft/Azure (29.01.)**: DeepSeek-Modelle werden in Azure/GitHub-Ökosystem integriert (Signal: Multi-Modell-Strategie im Enterprise-Stack).
+- **Alibaba (29.01.)**: **Qwen 2.5-Max** wird veröffentlicht – ausdrücklich als Antwort auf DeepSeek-V3 positioniert („wir sind besser"-Narrativ).
+- **Microsoft (Januar, ohne fixen Tag)**: **Phi-4** (Small Language Model) als Signal: „Reasoning muss nicht immer 100B+ sein".
+
+### Februar 2025
+- **Anthropic (24.02.)**: **Claude 3.7 Sonnet** mit Hybrid-Reasoning / „extended thinking".
+- **Perplexity (24.02.)**: **Comet Browser** wird angekündigt – ein KI-nativer Browser basierend auf Chromium.
+- **Google (05.02.)**: **Gemini 2.0 Pro** (nach 2.0 Flash als Default Ende Januar).
+- **xAI (18.02.)**: **Grok 3** wird vorgestellt (Reasoning-Positionierung + Produktintegration bei X).
+- **Alibaba (25.02.)**: **Wan 2.1** wird als Open-Source-Video/Imaging-Modell angekündigt/veröffentlicht.
+- **Microsoft (Februar, ohne fixen Tag)**: **Phi-4 mini / Phi-4 multimodal** erweitern die „klein aber stark"-Schiene.
+
+### März 2025
+- **Cohere (13.03.)**: **Command A** – „Enterprise-LLM" mit sehr langem Kontext (256k) und starker Tool-/RAG-Ausrichtung.
+- **Baidu (16.03.)**: **ERNIE 4.5 + ERNIE X1** – Reasoning + Multimodal, explizit als kosteneffizienter Angriff auf DeepSeek-R1 gerahmt.
+- **Google (12.03.)**: **Gemini Robotics** (Vision-Language-Action Richtung „Embodied AI").
+- **Google (25.03.)**: **Gemini 2.5 Pro Experimental** als „thinking model"-Schritt.
+- **xAI (28.03.)**: **xAI kauft X (Twitter) für $33 Mrd.** – All-Stock-Deal zur Integration von Daten, Distribution und KI.
+
+### April 2025
+- **OpenAI (14.04.)**: Ankündigung, **GPT-4.5** in der API auslaufen zu lassen (Migration auf neuere/effizientere Modelle).
+- **Mistral (08.04.)**: **Pixtral Large 25.02** (multimodal) – stärkerer Push in Richtung visuelle Foundation Models.
+- **Baidu (25.04.)**: **ERNIE 4.5 Turbo / ERNIE X1 Turbo** – weitere Iteration im Preis/Leistung-Wettbewerb.
+- **Amazon (30.04.)**: **Nova Premier** in Bedrock – multimodal, sehr langer Kontext, als „Teacher Model" für Distillation positioniert.
+- **Microsoft (April, ohne fixen Tag)**: **Phi-4-reasoning** (feinjustiert für komplexes Reasoning).
+
+### Mai 2025
+- **Microsoft Build 2025 (19.–21.05.)**: Große Ankündigungen:
+  - **„Open Agentic Web"**-Vision: KI-Agenten arbeiten zusammen, nutzen MCP (Model Context Protocol).
+  - **Azure AI Foundry GA**: Unified Platform für Enterprise-KI mit 1.900+ Modellen (inkl. Grok 3).
+  - **GitHub Copilot wird autonomer Agent**: Kann selbstständig Features bauen, Bugs fixen, Code reviewen.
+  - **Windows AI Foundry**: On-Device AI-Entwicklung für Windows.
+  - **NLWeb**: Offener Standard für konversationelle Web-Interfaces.
+  - **Microsoft Discovery Platform**: KI-Agenten für wissenschaftliche Forschung (Pharma, Materials Science).
+- **Anthropic (22.05.)**: **Claude 4 (Opus 4 / Sonnet 4)** – Fokus auf längeres autonomes „Coding am Stück".
+- **DeepSeek (28.05.)**: **R1 Update + Release auf Hugging Face** (MIT-Lizenz) – Open-Model-Iteration wird „production-relevant".
+
+### Juni 2025
+- **Google (17.06.)**: **Gemini 2.5 Flash/Pro GA** (API/Vertex) – Stabilisierung für Produktion.
+- **Apple (WWDC, Juni)**: **Xcode 26** mit integrierter ChatGPT-Nutzung; **Apple Intelligence**-Features: Visual Intelligence, Genmoji, Image Playground, Writing Tools.
+- **xAI (17.06.)**: Grok 3 wird über Oracle Cloud auch für Enterprise-Kunden „distribution-fähig".
+
+### Juli 2025
+- **xAI (Juli)**: **Grok 4 + Grok 4 Heavy** Release – Top-Benchmark-Scores (44,4% auf Humanity's Last Exam vs. 26,9% Gemini 2.5 Pro), native Tool-Use, Real-Time Search.
+- **xAI (10.07.)**: **Grok in Tesla-Fahrzeugen** (Model S, 3, X, Y, Cybertruck) – KI-Integration ins Auto via Software-Update.
+- **Perplexity (09.07.)**: **Comet Browser Launch** (Windows/macOS) – exklusiv für Max-Abonnenten. Erster KI-nativer Browser vor OpenAI.
+- **OpenAI (17.07.)**: **ChatGPT Agent** – ChatGPT erledigt Aufgaben über eine virtuelle Arbeitsumgebung inkl. Connectoren.
+- **OpenAI (14.07.)**: **GPT-4.5** endet im API-Fenster (laut angekündigtem Plan).
+- **Liquid AI (10.07.)**: **LFM2** – bemerkenswert, weil es die „Edge/On-Device Effizienz" als Wettbewerbsklasse stärkt (nicht nur Transformer-Scaling).
+
+### August 2025
+- **OpenAI (07.08.)**: **GPT-5** Launch (Livestream) – neue Modellgeneration als „Zäsur" im OpenAI-Stack.
+- **Microsoft (August)**: **MAI-1-preview** – Microsofts **erstes In-House Foundation Model** (trainiert auf 15.000 H100 GPUs).
+- **Perplexity (August)**: Integration von **GPT-5** in den Deep Research Mode.
+- **OpenAI (August)**: **gpt-oss-20b / gpt-oss-120b** – Open-Weight-Modelle (Apache 2.0) für Teams, die lokal/selbst gehostet arbeiten wollen.
+- **DeepSeek (21.08.)**: **DeepSeek-V3.1** – Upgrade mit Fokus auf Speed/Agent-Fähigkeiten.
+- **Anthropic (05.08.)**: **Claude Opus 4.1** als Update.
+- **xAI (23.08.)**: **Grok 2.5 wird open-sourced** (restriktive Community-Lizenz) + Ankündigung, Grok 3 „innerhalb ~6 Monate" zu öffnen.
+- **EU (02.08.)**: **Pflichten für neue GPAI-Modelle** (Foundation Models) treten in die nächste Phase.
+
+### September 2025
+- **xAI (19.09.)**: **$200 Mrd. Bewertung** nach $10 Mrd. Funding-Runde – unter den wertvollsten Tech-Unternehmen weltweit.
+- **xAI (September)**: **X „For You"-Feed wird Grok-powered** – 100M+ Posts/Tag durch KI bewertet.
+- **OpenAI (30.09.)**: **Sora 2** startet als Standalone-App (US/Canada).
+- **Apple (September)**: Rollout des **Foundation Models Framework** (on-device ~3B Parameter) und iOS/macOS-Ökosystem-Integration.
+
+### Oktober 2025
+- **Perplexity (02.10.)**: **Comet Browser wird kostenlos** für alle Nutzer – nicht mehr nur Max-Abonnenten.
+- **OpenAI (06.10.)**: **DevDay**: AgentKit/ChatKit + **Codex „Generally Available"** + Sora 2 API-Preview.
+- **Microsoft (Oktober)**: **MAI-Image-1** – Microsofts **erstes In-House Text-to-Image Model** (Top-10 auf LMArena).
+- **Google (15.10.)**: **Veo 3.1** (Video, inkl. besserem Audio/Control) über Gemini-Ökosystem.
+- **OpenAI (21.10.)**: **ChatGPT Atlas** – KI-nativer Browser mit Agent Mode, Memory, Cursor Chat. **Nach** Perplexity Comet.
+- **Perplexity (30.10.)**: **Perplexity Patents** – KI-gestützte Patentsuche als neues Produkt.
+
+### November 2025
+- **Google (18.11.)**: **Gemini 3** – direkt in Search integriert; zusätzlich „Gemini Agent" und Dev-Plattform-Story.
+- **xAI (November)**: **X „Following"-Feed wird Grok-ranked** – nicht mehr chronologisch, sondern KI-kuratiert.
+- **OpenAI (November)**: De-/Re-Priorisierung älterer Modelle in Richtung neuer Generationen (API-Migrationen werden zentral).
+- **Alibaba (18.11.)**: Consumer-Upgrade mit neuem Qwen-Chatbot (Signal: „China-Consumer-AI" wird massentauglicher).
+- **Perplexity (20.11.)**: **Comet Browser für Android** – Mobile-Expansion.
+
+### Dezember 2025
+- **Amazon (02.12.)**: **Nova 2** (Lite/Pro Preview) – nächste Generation der Bedrock-Foundation-Models.
+- **Mistral (02.12.)**: **Mistral Large 3** (Mixture-of-Experts; Performance/Cost-Fokus).
+- **Google (03.12.)**: **Google Workspace Studio** – No-Code-Plattform zum Erstellen eigener KI-Agenten in Workspace.
+- **Anthropic (03.12.)**: **Claude Code erreicht $1B Run-Rate Revenue** (in nur 6 Monaten!). Gleichzeitig: **Anthropic kauft Bun** (JavaScript Runtime) für Claude Code Infrastructure.
+- **Anthropic (09.12.)**: **MCP → Linux Foundation (AAIF)** – Standardisierungsschritt fürs Agent-Ökosystem.
+- **Google (11.12.)**: **Gemini Deep Research Agent** – basierend auf Gemini 3 Pro, für komplexe Research-Tasks (Due Diligence, Drug Safety).
+- **OpenAI (11.12.)**: **GPT-5.2** Rollout (Instant/Thinking/Pro), positioniert gegen Gemini 3.
+- **OpenAI + Disney (11.12.)**: Deal/Investment rund um **Sora**-Ecosystem und Content-IP.
+- **Perplexity (Dezember)**: **Memory-Feature** + Conversational UI + Partnerschaft mit Cristiano Ronaldo.
+
+---
+
+## Gantt (Monatsansicht): Wer hat wann geliefert? (Farbcodiert nach Hersteller)
+
+**Legende (Farben im Label):** 🟩 OpenAI · 🟦 Google · 🟪 Anthropic · 🩶 Apple · 🟣 DeepSeek · 🟧 Alibaba · 🔷 Baidu · 🟥 Microsoft · 🟨 AWS · 🟫 Cohere · 🩷 Mistral · ⬛ xAI · 🔵 Perplexity · 🟪 EU/Regulierung
+
+```mermaid
+gantt
+  title Foundation Models 2025 – Monatsübersicht (Releases/Ankündigungen)
+  dateFormat  YYYY-MM-DD
+  axisFormat  %b
+  tickInterval 1month
+
+  section DeepSeek
+  🟣 DeepSeek-V3 :milestone, deepseek_v3, 2025-01-10, 0d
+  🟣 DeepSeek-R1 :milestone, deepseek_r1, 2025-01-20, 0d
+  🟣 R1 Update (HF/MIT) :milestone, deepseek_r1_update, 2025-05-28, 0d
+  🟣 DeepSeek-V3.1 :milestone, deepseek_v31, 2025-08-21, 0d
+
+  section OpenAI
+  🟩 Memory (ChatGPT) :milestone, openai_memory, 2025-04-10, 0d
+  🟩 GPT-4.5 Wind-Down (API) :milestone, openai_gpt45, 2025-04-14, 0d
+  🟩 ChatGPT Agent :milestone, openai_agent, 2025-07-17, 0d
+  🟩 GPT-5 :milestone, openai_gpt5, 2025-08-07, 0d
+  🟩 gpt-oss (open weights) :milestone, openai_gptoss, 2025-08-15, 0d
+  🟩 Sora 2 App :milestone, openai_sora2_app, 2025-09-30, 0d
+  🟩 DevDay + Codex GA :milestone, openai_devday, 2025-10-06, 0d
+  🟩 ChatGPT Atlas (Browser) :milestone, openai_atlas, 2025-10-21, 0d
+  🟩 GPT-5.2 :milestone, openai_gpt52, 2025-12-11, 0d
+
+  section Perplexity
+  🔵 Perplexity Assistant (Android) :milestone, pplx_assistant, 2025-01-23, 0d
+  🔵 Comet Browser angekündigt :milestone, pplx_comet_announce, 2025-02-24, 0d
+  🔵 Comet Browser Launch :milestone, pplx_comet_launch, 2025-07-09, 0d
+  🔵 Comet kostenlos :milestone, pplx_comet_free, 2025-10-02, 0d
+  🔵 Perplexity Patents :milestone, pplx_patents, 2025-10-30, 0d
+  🔵 Comet Android :milestone, pplx_comet_android, 2025-11-20, 0d
+
+  section Anthropic
+  🟪 Claude 3.7 Sonnet :milestone, anthropic_37, 2025-02-24, 0d
+  🟪 Claude 4 (Opus/Sonnet) :milestone, anthropic_4, 2025-05-22, 0d
+  🟪 Opus 4.1 :milestone, anthropic_41, 2025-08-05, 0d
+  🟪 Claude Code $1B + Bun :milestone, anthropic_bun, 2025-12-03, 0d
+  🟪 MCP → Linux Foundation (AAIF) :milestone, anthropic_mcp, 2025-12-09, 0d
+
+  section Google
+  🟦 Gemini 2.0 Pro :milestone, google_g2pro, 2025-02-05, 0d
+  🟦 Gemini Robotics :milestone, google_robotics, 2025-03-12, 0d
+  🟦 Gemini 2.5 Pro Exp :milestone, google_g25exp, 2025-03-25, 0d
+  🟦 Gemini 2.5 GA :milestone, google_g25ga, 2025-06-17, 0d
+  🟦 Veo 3.1 :milestone, google_veo31, 2025-10-15, 0d
+  🟦 Gemini 3 (Search) :milestone, google_g3, 2025-11-18, 0d
+  🟦 Workspace Studio :milestone, google_workspace_studio, 2025-12-03, 0d
+  🟦 Deep Research Agent :milestone, google_deep_research, 2025-12-11, 0d
+
+  section Apple
+  🩶 Xcode 26 + ChatGPT (WWDC) :milestone, apple_xcode26, 2025-06-09, 0d
+  🩶 Foundation Models Framework Rollout :milestone, apple_fmf, 2025-09-15, 0d
+
+  section Alibaba
+  🟧 Qwen 2.5-Max :milestone, alibaba_qwen25max, 2025-01-29, 0d
+  🟧 Wan 2.1 (open source) :milestone, alibaba_wan21, 2025-02-25, 0d
+  🟧 Qwen 3 (angekündigt) :milestone, alibaba_qwen3_announce, 2025-04-01, 0d
+  🟧 Qwen Chatbot (Upgrade) :milestone, alibaba_qwen_chatbot, 2025-11-18, 0d
+
+  section Baidu
+  🔷 ERNIE 4.5 + X1 :milestone, baidu_ernie45, 2025-03-16, 0d
+  🔷 ERNIE 4.5 Turbo + X1 Turbo :milestone, baidu_ernie_turbo, 2025-04-25, 0d
+
+  section Microsoft
+  🟥 Phi-4 (Monat) :milestone, ms_phi4, 2025-01-15, 0d
+  🟥 DeepSeek auf Azure :milestone, ms_azure_deepseek, 2025-01-29, 0d
+  🟥 Phi-4 mini/multimodal (Monat) :milestone, ms_phi4_variants, 2025-02-15, 0d
+  🟥 Phi-4-reasoning (Monat) :milestone, ms_phi4_reasoning, 2025-04-15, 0d
+  🟥 Build 2025 (Agentic Web) :milestone, ms_build, 2025-05-19, 0d
+  🟥 Azure AI Foundry GA :milestone, ms_foundry, 2025-05-19, 0d
+  🟥 MAI-1-preview :milestone, ms_mai1, 2025-08-15, 0d
+  🟥 MAI-Image-1 :milestone, ms_mai_image, 2025-10-14, 0d
+
+  section Amazon (AWS)
+  🟨 Nova Premier (Bedrock) :milestone, aws_nova_premier, 2025-04-30, 0d
+  🟨 Nova 2 (Lite/Pro Preview) :milestone, aws_nova2, 2025-12-02, 0d
+
+  section Cohere
+  🟫 Command A :milestone, cohere_commanda, 2025-03-13, 0d
+
+  section Mistral
+  🩷 Pixtral Large 25.02 :milestone, mistral_pixtral, 2025-04-08, 0d
+  🩷 Mistral Large 3 :milestone, mistral_large3, 2025-12-02, 0d
+
+  section xAI
+  ⬛ Grok 3 :milestone, xai_grok3, 2025-02-18, 0d
+  ⬛ xAI kauft X ($33B) :milestone, xai_buys_x, 2025-03-28, 0d
+  ⬛ Grok 3 (Oracle Cloud) :milestone, xai_oracle, 2025-06-17, 0d
+  ⬛ Grok 4 + Tesla :milestone, xai_grok4, 2025-07-10, 0d
+  ⬛ Grok 2.5 open-sourced :milestone, xai_grok25_oss, 2025-08-23, 0d
+  ⬛ $200B Bewertung :milestone, xai_valuation, 2025-09-19, 0d
+  ⬛ X Feed Grok-powered :milestone, xai_feed, 2025-11-15, 0d
+
+  section Regulierung (EU)
+  🟪 EU AI Act GPAI-Stichtag :milestone, eu_gpai, 2025-08-02, 0d
+```
+
+**Lesenhilfe (wichtig):** Einträge mit „(Monat)" oder „angekündigt" sind bewusst **monatsscharf** (ohne exakten Veröffentlichungstag in der Quelle). Für die Gantt-Darstellung sind sie auf einen **repräsentativen Tag im Monat** gelegt.
+
+---
+
+## Wettbewerber 2025 (kompakt)
+
+### Anthropic (Claude)
+- **Claude 3.7 Sonnet (Feb)**: Hybrid-Reasoning / „extended thinking".
+- **Claude 4 (Mai)**: Fokus auf langes, autonomes Coding.
+- **Computer Use**: „Desktop steuern" wird produktisiert (Tool-Use als Kernkompetenz).
+- **Claude Code $1B Revenue (Dez)**: In nur 6 Monaten erreicht Claude Code $1 Mrd. Run-Rate Revenue – ein Rekord für Coding-Tools.
+- **Bun-Akquisition (Dez)**: Anthropic kauft die JavaScript-Runtime Bun, um Claude Code's Infrastruktur zu stärken.
+
+### Google (Gemini)
+- **Gemini 2.x → 2.5**: Konsolidierung für Produktion (GA im Juni).
+- **Robotics / VLA**: Gemini wird nicht nur „Assistant", sondern „Actuator" (Robotik-Richtung).
+- **Gemini 3 (Nov)**: direkt in Search integriert; Agent- und Dev-Plattform-Story.
+- **Veo 3.1 (Okt)**: Video als ernsthafte Produktlinie.
+- **Workspace Studio (Dez)**: No-Code-Plattform zum Erstellen eigener KI-Agenten.
+- **Deep Research Agent (Dez)**: Basierend auf Gemini 3 Pro – für komplexe, mehrstufige Research-Aufgaben.
+
+### Perplexity AI
+- **Perplexity Assistant (Jan)**: KI-Assistent für Android mit Reservierungen, Erinnerungen, etc.
+- **Comet Browser (Jul)**: Erster KI-nativer Browser – **vor** OpenAI Atlas (Okt). Basiert auf Chromium, integriert Suche + Zusammenfassung + Agenten.
+- **Perplexity Patents (Okt)**: KI-gestützte Patentsuche.
+- **Memory + Conversational UI (Dez)**: Personalisierung über Sessions hinweg.
+
+### xAI (Grok)
+- **Grok 3 (Feb)**: Reasoning-Positionierung, Produktintegration bei X.
+- **xAI kauft X für $33 Mrd. (März)**: All-Stock-Deal – Integration von Social-Media-Daten für KI-Training.
+- **Grok 4 + Grok 4 Heavy (Juli)**: Top-Benchmark-Performance (44,4% auf Humanity's Last Exam), native Tool-Use.
+- **Tesla-Integration (Juli)**: Grok in Tesla-Fahrzeugen (Model S, 3, X, Y, Cybertruck).
+- **Grok 2.5 open-sourced (Aug)**: Community-Lizenz, Grok 3 Open-Source für 2026 angekündigt.
+- **$200 Mrd. Bewertung (Sep)**: Nach $10 Mrd. Funding unter den wertvollsten Tech-Firmen.
+- **X Feed Grok-powered (Nov)**: „For You" und „Following" werden komplett durch Grok kuratiert.
+
+### Microsoft (Phi / Platform / MAI)
+- **Phi-4 (Jan) + Varianten (Feb/Apr)**: Kleine Modelle werden als ernsthafte Reasoning-Bausteine positioniert (Edge/Local/Privacy).
+- **Build 2025 „Open Agentic Web" (Mai)**: Vision für kollaborierende KI-Agenten; MCP-Support, NLWeb, Windows AI Foundry.
+- **Azure AI Foundry GA (Mai)**: Unified Platform mit 1.900+ Modellen (inkl. Grok 3, GPT-5).
+- **GitHub Copilot als autonomer Agent (Mai)**: Kann selbstständig Features entwickeln, Bugs fixen, PRs erstellen.
+- **MAI-1-preview (Aug)**: Microsofts **erstes In-House LLM** – trainiert auf 15.000 H100 GPUs.
+- **MAI-Image-1 (Okt)**: Microsofts **erstes In-House Text-to-Image Model** – in Bing Image Creator und Copilot integriert.
+
+### Meta / Open-Weight Ökosystem
+- 2025 selbst war hier eher **Konsolidierung und Distribution** (Cloud-Partnerschaften, Deployment-Ökosystem), während die letzten großen Llama-3.x Releases Ende 2024 lagen.
+
+### Mistral
+- **Pixtral Large 25.02 (Apr)**: multimodal.
+- **Mistral Large 3 (Dez)**: Performance/Cost-Fokus (MoE) – „Enterprise-taugliche" Open-Weight-Alternative.
+
+### DeepSeek
+- **V3 (Jan)**: „Basis-Release", der den DeepSeek-Hype überhaupt erst entfacht (und Gegenreaktionen auslöst).
+- **R1 (Jan)**: Reasoning-Einschlag – „Denken" als Produktklasse. Trainiert für nur **~$5,6 Mio.** → Schockwelle.
+- **R1 Update (Mai)**: Schnelle Iteration + permissive Lizenzierung → hoher Druck auf Preise/Monetarisierung.
+- **V3.1 (Aug)**: Upgrade mit Fokus auf Speed/Agent-Fähigkeiten.
+
+### Alibaba (Qwen/Wan)
+- **Qwen 2.5-Max (Jan)**: Schnellschuss als Antwort auf DeepSeek-V3 (öffentliche „Benchmark-Narrative").
+- **Wan 2.1 (Feb)**: Open-Source-Video/Imaging-Modell; China-Video-Wettbewerb zieht an.
+
+### Baidu (ERNIE)
+- **ERNIE 4.5 + X1 (März)**: Multimodal + Reasoning mit „Preis/Leistung" als Waffe.
+- **Turbo-Varianten (April)**: Iterationstempo steigt; „Model-Lineup" wird wie Produktlinie gepflegt.
+
+### Amazon (Nova)
+- **Nova Premier (Apr)**: Multimodal + Long Context + Distillation-Story (Teacher→Student) in Bedrock.
+- **Nova 2 (Dez)**: neue Generation, stärkerer Reasoning-Fokus.
+
+### Cohere
+- **Command A (März)**: Enterprise-LLM mit 256k Kontext; Tool/RAG/Agent-Ausrichtung als Kern.
+
+### Apple
+- **Foundation Models Framework (Sep)**: On-Device Foundation Model (~3B Parameter) für iOS/macOS.
+- **Apple Intelligence Features (WWDC/laufend)**: Visual Intelligence, Genmoji, Image Playground, Writing Tools.
+- **Hinweis**: Die angekündigte „personalisierte Siri" wurde auf 2026 verschoben.
+
+---
+
+## OpenAI 2025: Produkte, Verschiebungen, was neu ist – und was ausläuft
+
+### Was dazugekommen ist (aus Nutzersicht)
+- **ChatGPT Memory (April 2025)**: ChatGPT kann „über alle Gespräche" hinweg referenzieren (kontrollierbar in Settings).
+- **ChatGPT Agent (Juli 2025)**: Aufgaben in einer virtuellen Umgebung selbstständig erledigen (Browsing, Tools, Connectoren).
+- **DevDay Tooling (Oktober 2025)**: AgentKit/ChatKit + **Codex GA** (Coding-Workflow als Produkt, nicht nur Feature).
+- **ChatGPT Atlas (Oktober 2025)**: KI-nativer Browser mit Agent Mode – **nach** Perplexity Comet.
+- **Sora 2 (Sept/Okt 2025)**: Standalone-App + API-Preview.
+- **GPT-5.2 (Dez 2025)**: neue Modellgeneration, stärkerer Fokus auf „Thinking"-Varianten.
+
+### Was nicht mehr „der Weg nach vorn" ist (Deprecations/Migrationen)
+- **GPT-4.5**: angekündigtes Auslaufen in der API (Migration auf neuere Modelle empfohlen).
+- **Assistants API**: Deprecation angekündigt (Ersatz: Responses/Conversations API; Removal in 2026).
+- **Realtime-Preview Modelle**: Deprecation mit Migration auf die „Realtime API" (Removal in 2026).
+
+> Kurz: OpenAI hat 2025 nicht nur neue Modelle geliefert, sondern den Stack neu geordnet: **Agent-Orchestrierung, Connectoren, Realtime, Video, Browser** – und ältere Pfade werden aktiv abgelöst.
+
+---
+
+## Die Landkarte: Was 2025 *wirklich* neu war (Foundation-Model-Pattern)
+
+### 1) Reasoning wird ein eigenes Produktsegment
+- **Open / kosteneffizient** (z.B. DeepSeek-R1) zwingt Plattformen, „Reasoning" nicht nur als Premium-Feature zu behandeln.
+- Closed-Labs (OpenAI/Anthropic/Google) bauen „Thinking/Reasoning"-Varianten systematisch in ihre Produktlinien ein.
+
+### 2) Agenten: Tool-Use + Connectoren + Evaluierung
+- Die „richtige" Frage wird: **Kann das Modell Tools sicher nutzen?**
+- OpenAI geht mit **ChatGPT Agent** + Dev-Tooling (AgentKit) in Richtung „Agent OS".
+- Anthropic professionalisiert „Computer Use" und standardisiert Integration (MCP-Bewegung).
+- Google koppelt Agenten direkt an Search/Workspace/Cloud.
+- Microsoft präsentiert das **„Open Agentic Web"** und macht GitHub Copilot zum autonomen Agenten.
+
+### 3) Multimodal & Video werden marktreif
+- **Sora 2** (OpenAI) und **Veo 3.1** (Google) zeigen: Video ist nicht mehr nur „Magic Demo", sondern API/App/Workflow.
+- Der Wettbewerb verschiebt sich von „kann Video" zu: **Kontrolle, Konsistenz, Audio, Editing, Rechte/Policy**.
+
+### 4) On-Device Foundation Models als Gegengewicht zur Cloud
+- Apples **Foundation Models Framework** setzt 2025 eine klare These: „Ein Teil der Intelligenz gehört auf das Gerät" (Privacy + Latency + Offline).
+- Microsofts **Windows AI Foundry** ermöglicht On-Device-Entwicklung auch für Windows.
+- Das verändert UX: weniger Chatbot, mehr „intelligente Funktionen überall".
+
+### 5) Governance & Regulation greifen in die Roadmaps
+- Der **EU AI Act** macht für neue GPAI-Modelle ab 2025 die Anforderungen konkreter (Dokumentation, Copyright-Policy, Risiko-Management).
+- Ergebnis: mehr Fokus auf **Tracing, Evals, Safety-Cases, Model Cards** – und auf „Compliance by Design".
+
+### 6) KI-native Browser als neues Schlachtfeld
+- **Perplexity Comet (Juli)** und **OpenAI Atlas (Oktober)** zeigen: Der Browser wird zum KI-Interface.
+- Suche + Zusammenfassung + Agenten direkt im Browser – Chrome/Safari bekommen echte Konkurrenz.
+
+### 7) Big Tech baut eigene Foundation Models
+- Microsoft launcht mit **MAI-1** und **MAI-Image-1** erstmals eigene In-House Foundation Models – weniger Abhängigkeit von OpenAI.
+- Amazon baut mit **Nova**-Familie eine eigene Bedrock-native Modellreihe.
+
+---
+
+## Wohin entwickelt sich das 2026? (Prognose, aber an 2025 beobachtbar)
+
+### Die wahrscheinlichsten Linien
+- **Agenten werden Standard-UI**: Weniger „Chatfenster", mehr „Aufgaben erledigen" (Plan → Tool-Use → Ergebnis → Audit/Evals).
+- **Multimodal wird Default**: Text-only wird „Basismodell", während viele Premium-Flows auf Video/Audio/Screen/Realtime setzen.
+- **On-Device + Private Cloud**: Apple-Style On-Device plus Enterprise-Private-Deployments (Datenhoheit) wachsen.
+- **Modelle werden austauschbarer**: Multi-Model-Plattformen (Cloud/IDE/Agent-Frameworks) machen „Model Routing" zum Feature.
+- **Compliance/Evals/Tracing** werden kaufentscheidend: Nicht nur „wie gut", sondern „wie nachweisbar sicher und kontrollierbar".
+- **KI-Browser** könnten klassische Browser herausfordern – oder integriert werden.
+
+### Bereits angekündigte / terminierte Punkte für 2026 (konkret)
+- **OpenAI Realtime Preview Removal**: angekündigt für **27.02.2026** (Migration auf Realtime API).
+- **OpenAI gpt-4o-latest API Access**: Ende angekündigt für **16.02.2026**.
+- **OpenAI Assistants API Removal**: angekündigt für **26.08.2026** (Ersatz: Responses/Conversations API).
+- **xAI Grok 3 Open-Source-Plan**: angekündigt „innerhalb ~6 Monate" nach Aug 2025 → grob **Anfang 2026**.
+- **Apple „Personalisierte Siri"**: auf 2026 verschoben.
+
+---
+
+## Glossar: Fachbegriffe kurz erklärt (für Nicht-Techies)
+
+| Begriff | Erklärung |
+|---------|-----------|
+| **Foundation Model** | Ein sehr großes KI-Modell, das als „Basis" für viele Anwendungen dient (z.B. ChatGPT, Claude, Gemini). Man kann es sich wie ein Betriebssystem vorstellen, auf dem verschiedene Apps laufen. |
+| **Reasoning / Thinking Model** | Ein Modell, das nicht einfach sofort antwortet, sondern erst „nachdenkt" – Schritt für Schritt überlegt, bevor es eine Antwort gibt. Wie ein Mensch, der erst plant, bevor er handelt. |
+| **Multimodal** | Das Modell kann verschiedene „Sinne" nutzen: Text lesen, Bilder sehen, Audio hören, Videos verstehen – nicht nur Text. |
+| **Agent / KI-Agent** | Eine KI, die nicht nur antwortet, sondern selbstständig **Aufgaben erledigt**: z.B. im Internet recherchieren, E-Mails schreiben, Termine buchen – wie ein digitaler Assistent. |
+| **RAG (Retrieval-Augmented Generation)** | Die KI sucht erst in einer Datenbank nach relevanten Infos und nutzt diese dann für die Antwort. Wie wenn du erst googelst, bevor du jemandem antwortest. |
+| **MCP (Model Context Protocol)** | Ein Standard, damit verschiedene KI-Modelle einheitlich mit Tools und Daten kommunizieren können – wie USB für Geräte. |
+| **API** | Eine Schnittstelle, über die Programme miteinander kommunizieren. Entwickler nutzen APIs, um KI-Modelle in ihre Apps einzubauen. |
+| **Open Weights / Open Source** | Das Modell kann heruntergeladen und selbst betrieben werden. **Open Source** = auch der Code ist offen. **Open Weights** = nur die trainierten Gewichte, nicht unbedingt der Trainingscode. |
+| **GA (Generally Available)** | „Allgemein verfügbar" – die Beta-Phase ist vorbei, das Produkt ist offiziell für alle nutzbar. |
+| **MoE (Mixture-of-Experts)** | Eine Architektur, bei der nicht das ganze Modell für jede Anfrage arbeitet, sondern nur spezialisierte „Experten"-Teile. Spart Rechenleistung. |
+| **Context Window / Kontext** | Wie viel Text die KI „im Kopf behalten" kann. 256k Kontext = ~200 Seiten Text auf einmal verarbeiten. |
+| **Deprecation** | Ankündigung, dass ein Feature/Modell bald abgeschaltet wird – Nutzer sollen auf Alternativen umsteigen. |
+| **Distillation (Teacher-Student)** | Ein großes Modell („Teacher") trainiert ein kleineres Modell („Student"), das dann effizienter ist, aber ähnlich gut. |
+| **Token** | Die „Wörter" für KI-Modelle. Ein Token ist etwa 4 Zeichen oder ¾ eines Wortes. Preis pro Token = Kosten für KI-Nutzung. |
+| **Parameter** | Die „Stellschrauben" eines Modells. Mehr Parameter = größeres Modell, oft leistungsfähiger, aber teurer. GPT-4 hat ~1,7 Billionen Parameter. |
+| **Inference** | Wenn das Modell eine Antwort generiert (im Gegensatz zum Training). Inference-Kosten = Kosten pro Anfrage. |
+| **FP8 / BF16** | Verschiedene Zahlenformate für Berechnungen. FP8 braucht weniger Speicher, BF16 ist genauer. DeepSeek nutzte FP8, um Kosten zu sparen. |
+
+---
+
+## Techie Deep-Dive: Warum der DeepSeek-Schock so erschütternd war
+
+### Die Zahlen, die alles veränderten
+
+| Aspekt | DeepSeek-R1 | Vergleich (GPT-4 / Claude 3) |
+|--------|-------------|------------------------------|
+| **Trainingskosten (finale Phase)** | ~$5,6 Mio. | ~$100+ Mio. (geschätzt) |
+| **Hardware** | 2.048× Nvidia H800 | 10.000+ H100/A100 (typisch) |
+| **Parameter (gesamt)** | 671 Mrd. | 1,7 Bio. (GPT-4, geschätzt) |
+| **Parameter (aktiv pro Anfrage)** | 37 Mrd. | ~200 Mrd.+ (geschätzt) |
+| **Benchmark-Performance** | Auf GPT-4o-Niveau | – |
+
+### Warum war das ein „Schock"?
+
+1. **Das Narrativ „Mehr Geld = Besseres Modell" wackelte.**
+   - Die westliche KI-Branche hatte sich auf ein Wettrüsten eingestellt: Wer die meisten GPUs und das größte Budget hat, gewinnt.
+   - DeepSeek zeigte: Mit cleverer Architektur kann man 10–20× günstiger zum gleichen Ergebnis kommen.
+
+2. **Die Aktien-Reaktion war brutal.**
+   - **Nvidia**: −17% an einem Tag, ~$600 Mrd. Marktkapitalisierung weg.
+   - **Nasdaq**: −3% insgesamt.
+   - Grund: Wenn Training billiger wird, braucht man weniger GPUs → Nvidia-Nachfrage sinkt?
+
+3. **Geopolitische Dimension.**
+   - DeepSeek arbeitete mit **H800-GPUs** – einer Exportversion der H100, die trotz US-Sanktionen nach China geliefert werden durfte.
+   - Das Modell wurde unter eingeschränkten Bedingungen trainiert und war trotzdem kompetitiv.
+
+### Die technischen Tricks hinter DeepSeek-R1
+
+#### 1) Mixture-of-Experts (MoE) radikal umgesetzt
+- 671 Mrd. Parameter insgesamt, aber nur **37 Mrd. aktiv** pro Anfrage.
+- Das Modell „wählt" für jede Anfrage die passenden Experten-Module aus.
+- Effekt: 18× weniger Rechenaufwand bei Inference als ein vergleichbares Dense-Modell.
+
+```
+Traditionelles Modell:     DeepSeek MoE:
+┌─────────────────┐        ┌─────────────────┐
+│ Alle Parameter  │        │ Expert 1 ✓     │ ← nur aktiv
+│ immer aktiv     │        │ Expert 2       │
+│ (teuer!)        │        │ Expert 3 ✓     │ ← nur aktiv
+└─────────────────┘        │ Expert 4       │
+                           │ ...            │
+                           │ Expert N       │
+                           └─────────────────┘
+```
+
+#### 2) FP8 Mixed-Precision Training
+- Statt BF16 (16-bit) wurde FP8 (8-bit) für rechenintensive Operationen genutzt.
+- Effekt: **40% weniger GPU-Speicher**, schnelleres Training.
+- Trade-off: Etwas weniger Präzision, aber bei großen Modellen kaum Qualitätsverlust.
+
+#### 3) Optimierte Parallelisierung
+- **DualPipe**: Pipeline-Parallelismus, der Wartezeiten minimiert.
+- **Expert Parallelism**: Die MoE-Experten werden auf verschiedene GPUs verteilt.
+- Wichtig: Die H800 hat langsamere Interconnects als die H100 – DeepSeek hat das durch Software kompensiert.
+
+### Die eigentliche Kostenfrage
+
+Die $5,6 Mio. sind **nur die finale Trainingsphase**. Berücksichtigt man:
+- Vorherige Experimente und Iterationen
+- Hardware-Anschaffung
+- Infrastruktur und Personal
+
+...kommt man auf geschätzte **$500 Mio. Gesamtinvestition** (laut CNBC-Analyse).
+
+**Aber**: Selbst wenn das stimmt, ist es immer noch **deutlich günstiger** als die geschätzten $4–10 Mrd., die für GPT-5 oder Gemini Ultra aufgewendet werden.
+
+### Was bedeutet das für die Branche?
+
+| Erkenntnis | Konsequenz |
+|------------|------------|
+| **MoE funktioniert für Reasoning** | Alle großen Labs bauen jetzt MoE-Varianten |
+| **Training-Effizienz > Raw Compute** | Wettbewerb um bessere Algorithmen, nicht nur mehr GPUs |
+| **Open Models können disruptiv sein** | Druck auf Closed-Source-Anbieter, Preise zu senken |
+| **China ist nicht abgehängt** | Trotz Chip-Sanktionen bleibt China kompetitiv |
+| **Nvidia ist nicht unverwundbar** | Wenn weniger GPUs nötig sind, sinkt die Nachfrage |
+
+### Bonus: DeepSeeks Profitabilitäts-Claim
+
+Im März 2025 behauptete DeepSeek eine **theoretische Kosten-Profit-Ratio von 545% pro Tag** für ihren API-Service. Das bedeutet:
+- Extrem niedrige Inference-Kosten durch MoE
+- Aggressive Preisgestaltung möglich
+- Andere Anbieter müssen reagieren (und haben reagiert: OpenAI senkte Preise mehrfach 2025)
+
+---
+
+## Quellen (Auswahl)
+
+### OpenAI
+- OpenAI Codex GA: [OpenAI – „Codex now generally available"](https://openai.com/index/codex-now-generally-available/)
+- OpenAI ChatGPT Agent: [OpenAI – „Introducing ChatGPT agent"](https://openai.com/blog/introducing-chatgpt-agent/)
+- ChatGPT Atlas: [OpenAI – „Introducing ChatGPT Atlas"](https://openai.com/index/introducing-chatgpt-atlas/) · [Reuters – Atlas Browser](https://www.reuters.com/technology/openai-unveils-ai-browser-atlas-2025-10-21/)
+- ChatGPT Memory (April 2025): [OpenAI Community – „ChatGPT can now reference all past conversations"](https://community.openai.com/t/chatgpt-can-now-reference-all-past-conversations-april-10-2025/1229453)
+- OpenAI Deprecations: [OpenAI Platform – Deprecations](https://platform.openai.com/docs/deprecations)
+- OpenAI GPT-4.5 Wind-Down: [TechCrunch – „OpenAI plans to wind down GPT-4.5…"](https://techcrunch.com/2025/04/14/openai-plans-to-wind-down-gpt-4-5-its-largest-ever-ai-model-in-its-api/)
+- OpenAI GPT-5: [Reuters – „OpenAI launches GPT-5…"](https://www.reuters.com/business/watch-live-openai-launches-gpt-5-artificial-intelligence-model-2025-08-07/)
+- OpenAI gpt-oss: [OpenAI – „Introducing gpt-oss"](https://openai.com/index/introducing-gpt-oss/) · [OpenAI – gpt-oss model card](https://openai.com/research/gpt-oss-model-card/)
+- OpenAI GPT-5.2: [Reuters – GPT-5.2 Launch](https://www.reuters.com/technology/openai-launches-gpt-52-ai-model-with-improved-capabilities-2025-12-11/)
+- OpenAI Sora 2: [Reuters – Sora standalone app](https://www.reuters.com/world/americas/openai-launches-ai-video-tool-sora-standalone-app-2025-09-30/)
+
+### Perplexity
+- Perplexity Assistant: [Reuters – Perplexity debuts AI assistant](https://www.reuters.com/technology/artificial-intelligence/perplexity-debuts-ai-assistant-android-challenge-alexa-chatgpt-2025-01-23/)
+- Comet Browser Ankündigung: [TechCrunch – Perplexity teases Comet](https://techcrunch.com/2025/02/24/perplexity-teases-a-web-browser-called-comet/)
+- Comet Browser Launch: [UPI – Perplexity Comet launch](https://www.upi.com/Top_News/US/2025/07/09/bc-us-perplexity-comet-browser-launch/5911752083534/)
+- Comet kostenlos: [TechCrunch – Comet AI browser now free](https://techcrunch.com/2025/10/02/perplexitys-comet-ai-browser-now-free-max-users-get-new-background-assistant/)
+- Perplexity Patents: [Axios – Perplexity AI Patent search](https://www.axios.com/2025/10/30/perplexity-ai-patent)
+- Perplexity Changelog: [Perplexity – Changelog](https://www.perplexity.ai/changelog)
+
+### Anthropic
+- Claude 3.7: [Reuters – Claude 3.7 Sonnet](https://www.reuters.com/technology/artificial-intelligence/anthropic-launches-advanced-ai-hybrid-reasoning-model-2025-02-24/)
+- Claude 4: [Reuters – Claude 4 can code for hours](https://www.reuters.com/business/startup-anthropic-says-its-new-ai-model-can-code-hours-time-2025-05-22/)
+- Computer Use: [Anthropic Docs – Computer use](https://docs.anthropic.com/en/docs/build-with-claude/computer-use)
+- MCP Donation: [Anthropic – MCP to Linux Foundation / AAIF](https://www.anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation)
+- Claude Code $1B + Bun: [Anthropic – Claude Code reaches $1B milestone, acquires Bun](https://www.anthropic.com/news/anthropic-acquires-bun-as-claude-code-reaches-usd1b-milestone)
+
+### Google
+- Gemini 3: [Reuters – Gemini 3 in Search](https://www.reuters.com/business/media-telecom/google-launches-gemini-3-embeds-ai-model-into-search-immediately-2025-11-18/)
+- Gemini API Changelog: [Google – Gemini API changelog](https://ai.google.dev/gemini-api/docs/changelog)
+- Veo 3.1: [Google Developers Blog – Veo 3.1](https://developers.googleblog.com/introducing-veo-3-1-and-new-creative-capabilities-in-the-gemini-api/)
+- Google Workspace Studio: [Google Workspace Blog – Introducing Workspace Studio](https://workspace.google.com/blog/product-announcements/introducing-google-workspace-studio-agents-for-everyday-work)
+- Gemini Deep Research Agent: [TechCrunch – Google launched its deepest AI research agent yet](https://techcrunch.com/2025/12/11/google-launched-its-deepest-ai-research-agent-yet-on-the-same-day-openai-dropped-gpt-5-2/) · [Google Blog – Deep Research Agent](https://blog.google/technology/developers/deep-research-agent-gemini-api/)
+
+### DeepSeek
+- DeepSeek R1 Update: [TechCrunch – DeepSeek updates R1](https://techcrunch.com/2025/05/28/deepseek-updates-its-r1-reasoning-ai-model-releases-it-on-hugging-face/)
+- DeepSeek V3/V3.1: [Reuters – DeepSeek V3](https://www.reuters.com/technology/artificial-intelligence/chinese-ai-startup-deepseek-overtakes-chatgpt-apple-app-store-2025-01-27/) · [Reuters – DeepSeek V3.1](https://www.reuters.com/world/china/chinese-startup-deepseek-releases-upgraded-ai-model-2025-08-21/)
+- DeepSeek Trainingskosten: [CNBC – DeepSeek hardware spend](https://www.cnbc.com/2025/01/31/deepseeks-hardware-spend-could-be-as-high-as-500-million-report.html)
+- DeepSeek Markt-Impact: [Le Monde – DeepSeek disrupts AI sector](https://www.lemonde.fr/en/economy/article/2025/01/28/chinese-start-up-deepseek-disrupts-the-artificial-intelligence-sector_6737513_19.html)
+- DeepSeek Profitabilität: [Reuters – DeepSeek cost-profit ratio](https://www.reuters.com/technology/chinas-deepseek-claims-theoretical-cost-profit-ratio-545-per-day-2025-03-01/)
+- DeepSeek Architektur: [Medium – DeepSeek V3 and R1 Architecture](https://medium.com/@galhyams/deepseek-v3-and-r1-architecture-5e5ae796c7a9)
+
+### xAI / Grok
+- Grok 3: [Reuters – Grok 3 unveiled](https://www.reuters.com/technology/artificial-intelligence/elon-musk-says-xais-grok-3-chatbot-be-unveiled-monday-2025-02-16/) · [Reuters – Grok 3 launch](https://www.reuters.com/technology/artificial-intelligence/musks-xai-unveils-grok-3-ai-chatbot-rival-chatgpt-chinas-deepseek-2025-02-18/)
+- xAI kauft X: [Reuters – xAI buys X for $33 billion](https://www.reuters.com/markets/deals/musks-xai-buys-social-media-platform-x-45-billion-2025-03-28/)
+- Grok 4 + Tesla: [Reuters – Grok AI in Tesla vehicles](https://www.reuters.com/business/autos-transportation/grok-ai-be-available-tesla-vehicles-next-week-musk-says-2025-07-10/)
+- $200B Bewertung: [Reuters – xAI raises $10B at $200B valuation](https://www.reuters.com/business/xai-raises-10-billion-200-billion-valuation-cnbc-reports-2025-09-19/)
+- Grok 2.5 Open Source: [Reuters – Grok 2.5 open sourced](https://www.reuters.com/technology/musk-says-xai-open-sources-grok-25-2025-08-23/)
+- X Feed Grok-powered: [Livemint – X feed to go fully AI](https://www.livemint.com/technology/tech-news/elon-musk-confirms-x-s-feed-to-go-fully-ai-users-can-customise-via-grok-by-yearend/amp-11758358381621.html)
+- Grok 3 Oracle Cloud: [Reuters – Oracle Cloud adds Grok 3](https://www.reuters.com/business/oracle-cloud-add-xais-grok-3-model-lineup-corporate-customers-2025-06-17/)
+
+### Microsoft
+- DeepSeek auf Azure: [Reuters – DeepSeek on Azure](https://www.reuters.com/technology/artificial-intelligence/microsoft-rolls-out-deepseeks-ai-model-azure-2025-01-29/)
+- Phi-4: [Microsoft Research – Phi-4 (Jan 2025)](https://www.microsoft.com/en-us/research/uploads/prod/2025/01/WEF-2025_Leave-Behind_Phi-4.pdf)
+- Build 2025 Agentic Web: [Microsoft News – Build 2025 Open Agentic Web](https://news.microsoft.com/th-th/2025/05/20/microsoft-build-2025-the-age-of-ai-agents-and-building-the-open-agentic-web-en/) · [Reuters – Microsoft wants AI agents to work together](https://www.reuters.com/business/microsoft-wants-ai-agents-work-together-remember-things-2025-05-19/)
+- Azure AI Foundry GA: [Azure Blog – Azure AI Foundry capabilities](https://azure.microsoft.com/en-us/blog/new-capabilities-in-azure-ai-foundry-to-build-advanced-agentic-applications/)
+- MAI-1-preview: [Microsoft AI – Two new in-house models](https://microsoft.ai/news/two-new-in-house-models/)
+- MAI-Image-1: [TechRadar – MAI-Image-1](https://www.techradar.com/ai-platforms-assistants/mai-image-1-puts-microsoft-in-the-ai-art-game-this-time-with-its-own-brush) · [Tom's Guide – MAI-Image-1](https://www.tomsguide.com/ai/microsoft-debuts-mai-image-1-its-first-in-house-ai-image-generator)
+
+### China (Alibaba, Baidu)
+- Alibaba Qwen 2.5-Max: [Reuters – Qwen 2.5-Max](https://www.reuters.com/technology/artificial-intelligence/alibaba-releases-ai-model-it-claims-surpasses-deepseek-v3-2025-01-29/)
+- Alibaba Wan 2.1: [Reuters – Wan 2.1 Open Source](https://www.reuters.com/technology/artificial-intelligence/alibaba-release-open-source-version-video-generating-ai-model-2025-02-25/)
+- Baidu ERNIE 4.5/X1: [Reuters – Baidu launches ERNIE 4.5 and X1](https://www.reuters.com/technology/artificial-intelligence/chinas-baidu-launches-two-new-ai-models-industry-competition-heats-up-2025-03-16/)
+- Baidu Turbo-Modelle: [Reuters – Baidu launches new AI model…](https://www.reuters.com/world/china/baidu-launches-new-ai-model-amid-mounting-competition-2025-04-25/)
+
+### Amazon (AWS)
+- Nova Premier: [AWS – Nova Premier in Bedrock](https://aws.amazon.com/about-aws/whats-new/2025/04/amazon-nova-premier-complex-tasks-model-distillation/)
+- Nova 2: [AWS – Nova 2 models in Bedrock](https://aws.amazon.com/about-aws/whats-new/2025/12/nova-2-foundation-models-amazon-bedrock/)
+
+### Andere
+- Cohere Command A: [Cohere Docs – Command A (03/2025)](https://docs.cohere.com/changelog/command-a)
+- Liquid AI LFM2: [Liquid AI – LFM2 Press Release](https://www.liquid.ai/press/liquid-ai-releases-worlds-fastest-and-best-performing-open-source-small-foundation-models)
+- Apple Foundation Models Framework: [Apple Newsroom – Foundation Models framework](https://www.apple.com/newsroom/2025/09/apples-foundation-models-framework-unlocks-new-intelligent-app-experiences/)
+- Apple Xcode 26 + ChatGPT: [Apple Newsroom – Developer tools (WWDC25)](https://www.apple.com/newsroom/2025/06/apple-supercharges-its-tools-and-technologies-for-developers/)
+- Apple Siri auf 2026 verschoben: [MacRumors – Personalized Siri still not ready](https://www.macrumors.com/2025/06/09/personalized-siri-still-not-ready/)
+- EU AI Act GPAI Guidelines: [EU Digital Strategy – GPAI providers guidelines](https://digital-strategy.ec.europa.eu/en/policies/guidelines-gpai-providers)
