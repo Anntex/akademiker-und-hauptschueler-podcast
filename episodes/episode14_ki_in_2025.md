@@ -72,6 +72,7 @@ Im letzten Quartal ist der Ton überall ähnlich:
 ### Februar 2025
 - **Anthropic (24.02.)**: **Claude 3.7 Sonnet** mit Hybrid-Reasoning / „extended thinking".
 - **Perplexity (24.02.)**: **Comet Browser** wird angekündigt – ein KI-nativer Browser basierend auf Chromium.
+- **EU AI Act (02.02.)**: **Verbote bestimmter KI-Praktiken** und **AI-Literacy-Anforderungen** treten in Kraft – erste konkrete Compliance-Pflichten.
 - **Google (05.02.)**: **Gemini 2.0 Pro** (nach 2.0 Flash als Default Ende Januar).
 - **xAI (18.02.)**: **Grok 3** wird vorgestellt (Reasoning-Positionierung + Produktintegration bei X).
 - **Alibaba (25.02.)**: **Wan 2.1** wird als Open-Source-Video/Imaging-Modell angekündigt/veröffentlicht.
@@ -110,7 +111,9 @@ Im letzten Quartal ist der Ton überall ähnlich:
 ### Juli 2025
 - **xAI (Juli)**: **Grok 4 + Grok 4 Heavy** Release – Top-Benchmark-Scores (44,4% auf Humanity's Last Exam vs. 26,9% Gemini 2.5 Pro), native Tool-Use, Real-Time Search.
 - **xAI (10.07.)**: **Grok in Tesla-Fahrzeugen** (Model S, 3, X, Y, Cybertruck) – KI-Integration ins Auto via Software-Update.
+- **Cohere (Juli)**: **Command A Vision** – multimodales Modell für Dokument-/Chart-Analyse, OCR, 128K Kontext, 20 Bilder pro Anfrage.
 - **Perplexity (09.07.)**: **Comet Browser Launch** (Windows/macOS) – exklusiv für Max-Abonnenten. Erster KI-nativer Browser vor OpenAI.
+- **Baidu/Uber (15.07.)**: Partnerschaft zur Bereitstellung von **Apollo Go Robotaxis** auf Uber-Plattform (Asien, Mittlerer Osten).
 - **OpenAI (17.07.)**: **ChatGPT Agent** – ChatGPT erledigt Aufgaben über eine virtuelle Arbeitsumgebung inkl. Connectoren.
 - **OpenAI (14.07.)**: **GPT-4.5** endet im API-Fenster (laut angekündigtem Plan).
 - **Liquid AI (10.07.)**: **LFM2** – bemerkenswert, weil es die „Edge/On-Device Effizienz" als Wettbewerbsklasse stärkt (nicht nur Transformer-Scaling).
@@ -128,40 +131,51 @@ Im letzten Quartal ist der Ton überall ähnlich:
 ### September 2025
 - **xAI (19.09.)**: **$200 Mrd. Bewertung** nach $10 Mrd. Funding-Runde – unter den wertvollsten Tech-Unternehmen weltweit.
 - **xAI (September)**: **X „For You"-Feed wird Grok-powered** – 100M+ Posts/Tag durch KI bewertet.
+- **Deutschland (September)**: **Bund-Länder-Streit** über EU AI Act-Umsetzung – 17 Landesdatenschutzbehörden kritisieren Zentralisierungspläne.
 - **OpenAI (30.09.)**: **Sora 2** startet als Standalone-App (US/Canada).
 - **Apple (September)**: Rollout des **Foundation Models Framework** (on-device ~3B Parameter) und iOS/macOS-Ökosystem-Integration.
 
 ### Oktober 2025
 - **Perplexity (02.10.)**: **Comet Browser wird kostenlos** für alle Nutzer – nicht mehr nur Max-Abonnenten.
 - **OpenAI (06.10.)**: **DevDay**: AgentKit/ChatKit + **Codex „Generally Available"** + Sora 2 API-Preview.
+- **Amazon (Oktober)**: **Bedrock AgentCore** GA – Plattform für produktionsreife KI-Agenten inkl. Runtime, Memory, Gateway, Identity.
 - **Microsoft (Oktober)**: **MAI-Image-1** – Microsofts **erstes In-House Text-to-Image Model** (Top-10 auf LMArena).
 - **Google (15.10.)**: **Veo 3.1** (Video, inkl. besserem Audio/Control) über Gemini-Ökosystem.
 - **OpenAI (21.10.)**: **ChatGPT Atlas** – KI-nativer Browser mit Agent Mode, Memory, Cursor Chat. **Nach** Perplexity Comet.
 - **Perplexity (30.10.)**: **Perplexity Patents** – KI-gestützte Patentsuche als neues Produkt.
 
 ### November 2025
+- **Baidu World (13.11.)**: **ERNIE 5.0** – omni-modales Modell (Text, Bild, Audio, Video nativ). Dazu: **GenFlow 3.0**, **MeDo 2.0**, **Famou** (selbst-evolvierender Agent).
+- **Baidu Apollo Go (Nov)**: **17 Mio.+ Fahrten** kumuliert, 22 Städte weltweit, größter Robotaxi-Service nach Fahrtenzahl.
 - **Google (18.11.)**: **Gemini 3** – direkt in Search integriert; zusätzlich „Gemini Agent" und Dev-Plattform-Story.
 - **xAI (November)**: **X „Following"-Feed wird Grok-ranked** – nicht mehr chronologisch, sondern KI-kuratiert.
 - **OpenAI (November)**: De-/Re-Priorisierung älterer Modelle in Richtung neuer Generationen (API-Migrationen werden zentral).
 - **Alibaba (18.11.)**: Consumer-Upgrade mit neuem Qwen-Chatbot (Signal: „China-Consumer-AI" wird massentauglicher).
 - **Perplexity (20.11.)**: **Comet Browser für Android** – Mobile-Expansion.
+- **Hugging Face (Nov)**: **Transformers v5** – PyTorch als einziger Backend, 400+ Modellarchitekturen, vereinfachte APIs.
 
 ### Dezember 2025
-- **Amazon (02.12.)**: **Nova 2** (Lite/Pro Preview) – nächste Generation der Bedrock-Foundation-Models.
+- **AWS re:Invent (02.12.)**:
+  - **Nova 2** (Lite/Pro/Sonic/Omni) – nächste Generation mit Speech-to-Speech und multimodalem Reasoning.
+  - **Nova Forge** – Custom-Model-Service ($100K/Jahr) mit „Open Training" aus eigenen Daten + Amazon-Datasets.
+  - **Trainium3 UltraServers** – 3nm-Chips mit 4,4× Performance, 4× Energieeffizienz vs. Trainium2.
+  - **Kiro Agent** – autonomer „Frontier Agent" für Software-Entwicklung (Bugs, Code Coverage, Multi-Repo).
 - **Mistral (02.12.)**: **Mistral Large 3** (Mixture-of-Experts; Performance/Cost-Fokus).
 - **Google (03.12.)**: **Google Workspace Studio** – No-Code-Plattform zum Erstellen eigener KI-Agenten in Workspace.
 - **Anthropic (03.12.)**: **Claude Code erreicht $1B Run-Rate Revenue** (in nur 6 Monaten!). Gleichzeitig: **Anthropic kauft Bun** (JavaScript Runtime) für Claude Code Infrastructure.
 - **Anthropic (09.12.)**: **MCP → Linux Foundation (AAIF)** – Standardisierungsschritt fürs Agent-Ökosystem.
+- **Cohere (Dez)**: **Rerank 4** (Fast/Pro) – 32K Token Context Window (4× Vorgänger), Self-Learning für Enterprise Search.
 - **Google (11.12.)**: **Gemini Deep Research Agent** – basierend auf Gemini 3 Pro, für komplexe Research-Tasks (Due Diligence, Drug Safety).
 - **OpenAI (11.12.)**: **GPT-5.2** Rollout (Instant/Thinking/Pro), positioniert gegen Gemini 3.
 - **OpenAI + Disney (11.12.)**: Deal/Investment rund um **Sora**-Ecosystem und Content-IP.
 - **Perplexity (Dezember)**: **Memory-Feature** + Conversational UI + Partnerschaft mit Cristiano Ronaldo.
+- **Hugging Face (Dez 2024/2025)**: **smolagents** – minimalistische Library für KI-Agenten mit ~1.000 Zeilen Code + Online-Kurs.
 
 ---
 
 ## Gantt (Monatsansicht): Wer hat wann geliefert? (Farbcodiert nach Hersteller)
 
-**Legende (Farben im Label):** 🟩 OpenAI · 🟦 Google · 🟪 Anthropic · 🩶 Apple · 🟣 DeepSeek · 🟧 Alibaba · 🔷 Baidu · 🟥 Microsoft · 🟨 AWS · 🟫 Cohere · 🩷 Mistral · ⬛ xAI · 🔵 Perplexity · 🟪 EU/Regulierung
+**Legende (Farben im Label):** 🟩 OpenAI · 🟦 Google · 🟪 Anthropic · 🩶 Apple · 🟣 DeepSeek · 🟧 Alibaba · 🔷 Baidu · 🟥 Microsoft · 🟨 AWS · 🟫 Cohere · 🩷 Mistral · ⬛ xAI · 🔵 Perplexity · 🤗 Hugging Face · 🇪🇺 EU/Regulierung
 
 ```mermaid
 gantt
@@ -225,6 +239,8 @@ gantt
   section Baidu
   🔷 ERNIE 4.5 + X1 :milestone, baidu_ernie45, 2025-03-16, 0d
   🔷 ERNIE 4.5 Turbo + X1 Turbo :milestone, baidu_ernie_turbo, 2025-04-25, 0d
+  🔷 Uber-Partnerschaft (Apollo Go) :milestone, baidu_uber, 2025-07-15, 0d
+  🔷 ERNIE 5.0 (Baidu World) :milestone, baidu_ernie50, 2025-11-13, 0d
 
   section Microsoft
   🟥 Phi-4 (Monat) :milestone, ms_phi4, 2025-01-15, 0d
@@ -238,10 +254,13 @@ gantt
 
   section Amazon (AWS)
   🟨 Nova Premier (Bedrock) :milestone, aws_nova_premier, 2025-04-30, 0d
-  🟨 Nova 2 (Lite/Pro Preview) :milestone, aws_nova2, 2025-12-02, 0d
+  🟨 Bedrock AgentCore GA :milestone, aws_agentcore, 2025-10-15, 0d
+  🟨 re:Invent: Nova 2 + Forge + Trainium3 + Kiro :milestone, aws_reinvent, 2025-12-02, 0d
 
   section Cohere
   🟫 Command A :milestone, cohere_commanda, 2025-03-13, 0d
+  🟫 Command A Vision :milestone, cohere_vision, 2025-07-15, 0d
+  🟫 Rerank 4 (32K Context) :milestone, cohere_rerank4, 2025-12-10, 0d
 
   section Mistral
   🩷 Pixtral Large 25.02 :milestone, mistral_pixtral, 2025-04-08, 0d
@@ -256,8 +275,14 @@ gantt
   ⬛ $200B Bewertung :milestone, xai_valuation, 2025-09-19, 0d
   ⬛ X Feed Grok-powered :milestone, xai_feed, 2025-11-15, 0d
 
-  section Regulierung (EU)
-  🟪 EU AI Act GPAI-Stichtag :milestone, eu_gpai, 2025-08-02, 0d
+  section Hugging Face
+  🤗 smolagents Library :milestone, hf_smolagents, 2025-01-15, 0d
+  🤗 Transformers v5 :milestone, hf_transformers5, 2025-11-15, 0d
+
+  section Regulierung (EU/DE)
+  🇪🇺 AI Act Verbote + AI Literacy :milestone, eu_feb, 2025-02-02, 0d
+  🇪🇺 GPAI-Pflichten in Kraft :milestone, eu_gpai, 2025-08-02, 0d
+  🇩🇪 Bund-Länder-Streit (DE) :milestone, de_streit, 2025-09-15, 0d
 ```
 
 **Lesenhilfe (wichtig):** Einträge mit „(Monat)" oder „angekündigt" sind bewusst **monatsscharf** (ohne exakten Veröffentlichungstag in der Quelle). Für die Gantt-Darstellung sind sie auf einen **repräsentativen Tag im Monat** gelegt.
@@ -321,16 +346,35 @@ gantt
 - **Qwen 2.5-Max (Jan)**: Schnellschuss als Antwort auf DeepSeek-V3 (öffentliche „Benchmark-Narrative").
 - **Wan 2.1 (Feb)**: Open-Source-Video/Imaging-Modell; China-Video-Wettbewerb zieht an.
 
-### Baidu (ERNIE)
+### Baidu (ERNIE / Apollo Go)
 - **ERNIE 4.5 + X1 (März)**: Multimodal + Reasoning mit „Preis/Leistung" als Waffe.
 - **Turbo-Varianten (April)**: Iterationstempo steigt; „Model-Lineup" wird wie Produktlinie gepflegt.
+- **Uber-Partnerschaft (Juli)**: Apollo Go Robotaxis auf Uber-Plattform (Asien, Mittlerer Osten) – globale Expansion.
+- **ERNIE 5.0 (Nov, Baidu World)**: **Omni-modales** Foundation Model – Text, Bild, Audio, Video nativ verarbeitet/generiert.
+- **GenFlow 3.0 / MeDo 2.0 / Famou (Nov)**: KI-Agenten-Familie (No-Code-Builder, selbst-evolvierende Agenten).
+- **Apollo Go 17M+ Rides (Nov)**: Weltweit größter Robotaxi-Service nach Fahrten, 22 Städte, 1.000+ vollautonome Fahrzeuge.
 
-### Amazon (Nova)
+### Amazon (AWS / Nova / Custom Silicon)
 - **Nova Premier (Apr)**: Multimodal + Long Context + Distillation-Story (Teacher→Student) in Bedrock.
-- **Nova 2 (Dez)**: neue Generation, stärkerer Reasoning-Fokus.
+- **Bedrock AgentCore GA (Okt)**: Plattform für produktionsreife KI-Agenten mit Runtime, Memory, Gateway, Identity, Browser, Code Interpreter.
+- **re:Invent 2025 (Dez)**: Größtes AWS-KI-Update des Jahres:
+  - **Nova 2** (Lite/Pro/Sonic/Omni): Multimodales Reasoning, Speech-to-Speech-Interaktion.
+  - **Nova Forge** ($100K/Jahr): Custom-Model-Service mit „Open Training" – eigene Daten + Amazon-Datasets kombinieren.
+  - **Trainium3 UltraServers**: 3nm-Chips mit 4,4× Performance, 4× Energieeffizienz vs. Trainium2 – Training von Monaten auf Wochen.
+  - **Kiro Agent**: Autonomer „Frontier Agent" für Software-Entwicklung (Bugs triagieren, Code Coverage, Multi-Repo).
+  - **Trainium4 Preview**: Nächste Generation mit NVIDIA NVLink Fusion für GPU-Interoperabilität.
 
 ### Cohere
 - **Command A (März)**: Enterprise-LLM mit 256k Kontext; Tool/RAG/Agent-Ausrichtung als Kern.
+- **Command A Vision (Juli)**: Multimodales Modell für Dokument-Analyse, Chart-Interpretation, OCR (128K Kontext, bis zu 20 Bilder/Anfrage).
+- **Rerank 4 (Dez)**: Neuer Reranker mit **32K Token Context Window** (4× mehr als Vorgänger). Fast- und Pro-Varianten, Self-Learning-Fähigkeit für Enterprise Search. Kritisch für RAG-Systeme.
+
+### Hugging Face (Open-Source-Infrastruktur)
+- **Transformers v5 (Nov)**: Größtes Library-Update seit v4 (2020). **PyTorch als einziger Backend** (TensorFlow/Flax entfernt), 400+ Modellarchitekturen (Text, Vision, Audio, Multimodal). 3M+ tägliche Installationen.
+- **smolagents (Dez 2024/2025)**: Minimalistische Agent-Library (~1.000 Zeilen Code) für LLM-gesteuerte Agenten mit Tool-Integration. CodeAgent schreibt Python-Code für Aktionen, Sandbox-Ausführung möglich.
+- **vLLM-Integration**: High-Performance Inference-Engine für LLMs mit PagedAttention, Continuous Batching – kritisch für Produktion.
+- **Agenten-Kurs**: Kostenloser Online-Kurs zum Bau von KI-Agenten mit smolagents.
+- **Rolle 2025**: Hugging Face bleibt **die** zentrale Hub-Plattform für Open-Source-KI – sowohl für Modell-Distribution als auch für Tooling.
 
 ### Apple
 - **Foundation Models Framework (Sep)**: On-Device Foundation Model (~3B Parameter) für iOS/macOS.
@@ -381,7 +425,11 @@ gantt
 - Das verändert UX: weniger Chatbot, mehr „intelligente Funktionen überall".
 
 ### 5) Governance & Regulation greifen in die Roadmaps
-- Der **EU AI Act** macht für neue GPAI-Modelle ab 2025 die Anforderungen konkreter (Dokumentation, Copyright-Policy, Risiko-Management).
+- Der **EU AI Act** hat 2025 mehrere Meilensteine erreicht:
+  - **Februar 2025**: Verbote bestimmter KI-Praktiken (z.B. Social Scoring, manipulative Systeme) + AI-Literacy-Anforderungen treten in Kraft.
+  - **August 2025**: Pflichten für **General-Purpose AI** (Foundation Models) – Dokumentation, Risiko-Management, Copyright-Compliance.
+  - **Deutschland (September)**: **Bund-Länder-Streit** über Zentralisierung der Aufsicht – 17 Landesdatenschutzbehörden kritisieren Bundespläne.
+  - **August 2026** (Ausblick): High-Risk-AI-Regeln treten vollständig in Kraft.
 - Ergebnis: mehr Fokus auf **Tracing, Evals, Safety-Cases, Model Cards** – und auf „Compliance by Design".
 
 ### 6) KI-native Browser als neues Schlachtfeld
@@ -391,6 +439,11 @@ gantt
 ### 7) Big Tech baut eigene Foundation Models
 - Microsoft launcht mit **MAI-1** und **MAI-Image-1** erstmals eigene In-House Foundation Models – weniger Abhängigkeit von OpenAI.
 - Amazon baut mit **Nova**-Familie eine eigene Bedrock-native Modellreihe.
+
+### 8) Open-Source-Infrastruktur wird professionalisiert
+- **Hugging Face Transformers v5** etabliert PyTorch als Standard-Backend und vereinfacht die Integration mit Inference-Engines.
+- **smolagents** zeigt: Agent-Entwicklung wird auch für kleinere Teams zugänglich (~1.000 Zeilen Code).
+- **vLLM** und ähnliche High-Performance-Engines werden kritisch für Produktion – nicht mehr nur für Forschung.
 
 ---
 
@@ -410,6 +463,8 @@ gantt
 - **OpenAI Assistants API Removal**: angekündigt für **26.08.2026** (Ersatz: Responses/Conversations API).
 - **xAI Grok 3 Open-Source-Plan**: angekündigt „innerhalb ~6 Monate" nach Aug 2025 → grob **Anfang 2026**.
 - **Apple „Personalisierte Siri"**: auf 2026 verschoben.
+- **EU AI Act High-Risk-Regeln**: treten **August 2026** vollständig in Kraft – betrifft KI in kritischen Bereichen (Medizin, Justiz, Bildung).
+- **AWS Trainium4**: Preview für 2026 angekündigt – mit NVIDIA NVLink Fusion für GPU-Interoperabilität.
 
 ---
 
@@ -434,6 +489,12 @@ gantt
 | **Parameter** | Die „Stellschrauben" eines Modells. Mehr Parameter = größeres Modell, oft leistungsfähiger, aber teurer. GPT-4 hat ~1,7 Billionen Parameter. |
 | **Inference** | Wenn das Modell eine Antwort generiert (im Gegensatz zum Training). Inference-Kosten = Kosten pro Anfrage. |
 | **FP8 / BF16** | Verschiedene Zahlenformate für Berechnungen. FP8 braucht weniger Speicher, BF16 ist genauer. DeepSeek nutzte FP8, um Kosten zu sparen. |
+| **Reranker** | Ein Modell, das Suchergebnisse nach Relevanz neu sortiert. Wichtig für RAG-Systeme, um die besten Treffer an die KI zu geben. |
+| **Omni-modal** | Wie „multimodal", aber noch umfassender: Das Modell kann **alle** Modalitäten (Text, Bild, Audio, Video) nativ verarbeiten UND generieren. |
+| **Robotaxi** | Selbstfahrendes Taxi ohne menschlichen Fahrer. Apollo Go von Baidu ist der größte Betreiber weltweit. |
+| **Frontier Agent** | Ein besonders fortschrittlicher KI-Agent, der **stunden- oder tagelang autonom** arbeiten kann, ohne menschliche Eingriffe. |
+| **Custom Silicon** | Speziell entwickelte Computerchips (wie AWS Trainium oder Google TPU), die für KI-Training optimiert sind – nicht Standard-GPUs. |
+| **Hub (Hugging Face)** | Eine Plattform, auf der KI-Modelle, Datasets und Code geteilt werden. Wie GitHub, aber speziell für KI. |
 
 ---
 
@@ -594,10 +655,35 @@ Im März 2025 behauptete DeepSeek eine **theoretische Kosten-Profit-Ratio von 54
 - Nova Premier: [AWS – Nova Premier in Bedrock](https://aws.amazon.com/about-aws/whats-new/2025/04/amazon-nova-premier-complex-tasks-model-distillation/)
 - Nova 2: [AWS – Nova 2 models in Bedrock](https://aws.amazon.com/about-aws/whats-new/2025/12/nova-2-foundation-models-amazon-bedrock/)
 
-### Andere
+### Cohere
 - Cohere Command A: [Cohere Docs – Command A (03/2025)](https://docs.cohere.com/changelog/command-a)
+- Cohere Command A Vision: [Cohere Blog – Command A Vision](https://cohere.com/blog/command-a-vision)
+- Cohere Rerank 4: [Cohere Blog – Rerank 4](https://cohere.com/blog/rerank-4) · [VentureBeat – Rerank 4](https://venturebeat.com/ai/coheres-rerank-4-quadruples-the-context-window-to-cut-agent-errors-and-boost)
+
+### Amazon (AWS) – Zusätzliche Quellen
+- Nova Forge: [AWS – Nova Forge announcement](https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-nova-forge-frontier-models-nova/) · [TechRadar – Nova Forge](https://www.techradar.com/pro/aws-nova-forge-could-be-your-companys-cue-to-start-building-custom-ai-models)
+- Trainium3 UltraServers: [About Amazon – Trainium3](https://www.aboutamazon.com/news/aws/trainium-3-ultraserver-faster-ai-training-lower-cost/) · [Reuters – Amazon/NVIDIA Trainium4](https://www.reuters.com/business/retail-consumer/amazon-use-nvidia-tech-ai-chips-roll-out-new-servers-2025-12-02/)
+- Bedrock AgentCore: [AWS – AgentCore available](https://aws.amazon.com/about-aws/whats-new/2025/10/amazon-bedrock-agentcore-available/)
+- Kiro Agent: [About Amazon – Frontier Agents Kiro](https://www.aboutamazon.com/news/aws/amazon-ai-frontier-agents-autonomous-kiro/)
+
+### Baidu – Zusätzliche Quellen
+- ERNIE 5.0: [PR Newswire – Baidu World 2025](https://www.prnewswire.com/news-releases/baidu-unveils-ernie-5-0-and-a-series-of-ai-applications-at-baidu-world-2025--ramps-up-global-push-302614531.html)
+- Apollo Go 17M Rides: [CarnewsChina – Apollo Go milestones](https://carnewschina.com/2025/11/13/baidus-apollo-go-robotaxi-leads-global-autonomous-driving-with-17m-orders-targets-profit-this-year/)
+- Uber-Partnerschaft: [Reuters – Uber partners with Baidu](https://www.reuters.com/business/autos-transportation/uber-partners-with-chinas-baidu-deploy-self-driving-taxis-international-markets-2025-07-15/)
+
+### Hugging Face
+- Transformers v5: [Hugging Face Blog – Transformers v5](https://huggingface.co/blog/transformers-v5)
+- smolagents: [Hugging Face Blog – smolagents](https://huggingface.co/blog/smolagents) · [Hugging Face Docs – smolagents](https://huggingface.co/docs/smolagents/en/index)
+- vLLM Integration: [Hugging Face Docs – vLLM](https://huggingface.co/docs/inference-endpoints/engines/vllm)
+
+### Andere
 - Liquid AI LFM2: [Liquid AI – LFM2 Press Release](https://www.liquid.ai/press/liquid-ai-releases-worlds-fastest-and-best-performing-open-source-small-foundation-models)
 - Apple Foundation Models Framework: [Apple Newsroom – Foundation Models framework](https://www.apple.com/newsroom/2025/09/apples-foundation-models-framework-unlocks-new-intelligent-app-experiences/)
 - Apple Xcode 26 + ChatGPT: [Apple Newsroom – Developer tools (WWDC25)](https://www.apple.com/newsroom/2025/06/apple-supercharges-its-tools-and-technologies-for-developers/)
 - Apple Siri auf 2026 verschoben: [MacRumors – Personalized Siri still not ready](https://www.macrumors.com/2025/06/09/personalized-siri-still-not-ready/)
+
+### EU/Deutschland Regulierung
+- EU AI Act Timeline: [EU AI Act Service Desk – Implementation timeline](https://ai-act-service-desk.ec.europa.eu/en/ai-act/eu-ai-act-implementation-timeline)
 - EU AI Act GPAI Guidelines: [EU Digital Strategy – GPAI providers guidelines](https://digital-strategy.ec.europa.eu/en/policies/guidelines-gpai-providers)
+- Deutschland Bund-Länder-Streit: [euairisk.com – Germany AI Act dispute](https://euairisk.com/news/2025-09-13)
+- EU Commission confirms timeline: [Reuters – AI rules no pause](https://www.reuters.com/world/europe/artificial-intelligence-rules-go-ahead-no-pause-eu-commission-says-2025-07-04/)
