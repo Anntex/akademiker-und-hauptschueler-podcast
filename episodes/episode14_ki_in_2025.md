@@ -32,6 +32,7 @@ Im Frühjahr/Sommer verschiebt sich die Frage in vielen Unternehmen: „Wie gut 
 - OpenAI treibt ChatGPT in Richtung **Agenten**, die in einer virtuellen Arbeitsumgebung Aufgaben erledigen können.
 - Google spielt den Plattform-Vorteil aus: Search, Workspace, Android/Pixel/Cloud – und baut „Agenten" als Produktkategorie auf.
 - Microsoft präsentiert auf der **Build 2025** seine Vision eines **„Open Agentic Web"** – KI-Agenten, die zusammenarbeiten und autonom handeln.
+- **Meta** liefert mit **Llama 4** das erste nativ multimodale Open-Weight-Modell – und setzt mit **10 Mio. Token Context** einen neuen Maßstab.
 
 ### Akt 3 (Q3): Multimodal wird erwachsen – und „On-Device" wird strategisch
 
@@ -48,8 +49,8 @@ Parallel wird Governance konkreter: In der EU greifen 2025 erste Pflichten für 
 Im letzten Quartal ist der Ton überall ähnlich:
 
 - OpenAI: **Dev-Ökosystem + Agent-Tooling + Video + neue Modellgeneration + Browser (Atlas)**.
-- Google: **Gemini 3** wird direkt in Search eingebettet, plus **Deep Research Agent** und **Workspace Studio**.
-- Anthropic: „Computer Use", Coding-Fokus, Standardisierung (MCP), **Claude Code erreicht $1B Revenue** und **Bun-Akquisition**.
+- Google: **Gemini 3 + Gemini 3 Flash** werden direkt in Search eingebettet, plus **Deep Research Agent** und **Workspace Studio**.
+- Anthropic: „Computer Use", Coding-Fokus, Standardisierung (MCP), **Claude Code erreicht $1B Revenue**, **Bun-Akquisition** und **$15B Microsoft/Nvidia-Mega-Deal**.
 - Perplexity: **Comet Browser** (vor OpenAI Atlas!) als Angriff auf klassische Browser + KI-native Suche.
 - xAI: **$200B Bewertung**, X-Feed wird komplett Grok-powered.
 
@@ -68,12 +69,14 @@ Im letzten Quartal ist der Ton überall ähnlich:
 - **Microsoft/Azure (29.01.)**: DeepSeek-Modelle werden in Azure/GitHub-Ökosystem integriert (Signal: Multi-Modell-Strategie im Enterprise-Stack).
 - **Alibaba (29.01.)**: **Qwen 2.5-Max** wird veröffentlicht – ausdrücklich als Antwort auf DeepSeek-V3 positioniert („wir sind besser"-Narrativ).
 - **Microsoft (Januar, ohne fixen Tag)**: **Phi-4** (Small Language Model) als Signal: „Reasoning muss nicht immer 100B+ sein".
+- **OpenAI (31.01.)**: **o3-mini** – kosteneffizientes Reasoning-Modell mit Function Calling und Structured Outputs. Verfügbar für Free- und Plus-User.
 
 ### Februar 2025
 - **Anthropic (24.02.)**: **Claude 3.7 Sonnet** mit Hybrid-Reasoning / „extended thinking".
 - **Perplexity (24.02.)**: **Comet Browser** wird angekündigt – ein KI-nativer Browser basierend auf Chromium.
 - **EU AI Act (02.02.)**: **Verbote bestimmter KI-Praktiken** und **AI-Literacy-Anforderungen** treten in Kraft – erste konkrete Compliance-Pflichten.
 - **Google (05.02.)**: **Gemini 2.0 Pro** (nach 2.0 Flash als Default Ende Januar).
+- **OpenAI (12.02.)**: **o3 Erweiterung wird gecancelt** – Technologien fließen in einheitliche Next-Gen-Modelle (GPT-5) ein statt einem separatem Release.
 - **xAI (18.02.)**: **Grok 3** wird vorgestellt (Reasoning-Positionierung + Produktintegration bei X).
 - **Alibaba (25.02.)**: **Wan 2.1** wird als Open-Source-Video/Imaging-Modell angekündigt/veröffentlicht.
 - **Microsoft (Februar, ohne fixen Tag)**: **Phi-4 mini / Phi-4 multimodal** erweitern die „klein aber stark"-Schiene.
@@ -86,13 +89,18 @@ Im letzten Quartal ist der Ton überall ähnlich:
 - **xAI (28.03.)**: **xAI kauft X (Twitter) für $33 Mrd.** – All-Stock-Deal zur Integration von Daten, Distribution und KI.
 
 ### April 2025
-- **OpenAI (14.04.)**: Ankündigung, **GPT-4.5** in der API auslaufen zu lassen (Migration auf neuere/effizientere Modelle).
+- **Meta (05.04.)**: **Llama 4 Scout + Llama 4 Maverick** – nativ multimodal (Text + Bild), MoE-Architektur:
+  - **Scout**: 17B aktive / 109B Gesamt-Parameter, **10 Mio. Token Context Window** (!), 16 Experts.
+  - **Maverick**: 17B aktive / 400B Gesamt-Parameter, 1 Mio. Context, 128 Experts.
+  - Neue Security-Tools: **Llama Guard 4**, **LlamaFirewall**, **Llama Prompt Guard 2**.
 - **Mistral (08.04.)**: **Pixtral Large 25.02** (multimodal) – stärkerer Push in Richtung visuelle Foundation Models.
+- **OpenAI (14.04.)**: Ankündigung, **GPT-4.5** in der API auslaufen zu lassen (Migration auf neuere/effizientere Modelle).
 - **Baidu (25.04.)**: **ERNIE 4.5 Turbo / ERNIE X1 Turbo** – weitere Iteration im Preis/Leistung-Wettbewerb.
 - **Amazon (30.04.)**: **Nova Premier** in Bedrock – multimodal, sehr langer Kontext, als „Teacher Model" für Distillation positioniert.
 - **Microsoft (April, ohne fixen Tag)**: **Phi-4-reasoning** (feinjustiert für komplexes Reasoning).
 
 ### Mai 2025
+- **Meta (15.05.)**: **Llama 4 Behemoth verzögert** – ursprünglich geplantes Flaggschiff (288B aktive / ~2T Gesamt-Parameter) auf Herbst 2025 oder später verschoben wegen Entwicklungs-Challenges.
 - **Microsoft Build 2025 (19.–21.05.)**: Große Ankündigungen:
   - **„Open Agentic Web"**-Vision: KI-Agenten arbeiten zusammen, nutzen MCP (Model Context Protocol).
   - **Azure AI Foundry GA**: Unified Platform für Enterprise-KI mit 1.900+ Modellen (inkl. Grok 3).
@@ -129,10 +137,11 @@ Im letzten Quartal ist der Ton überall ähnlich:
 - **EU (02.08.)**: **Pflichten für neue GPAI-Modelle** (Foundation Models) treten in die nächste Phase.
 
 ### September 2025
+- **China (01.09.)**: **Pflicht zur KI-Content-Kennzeichnung** tritt in Kraft – alle KI-generierten Inhalte müssen explizit (Wasserzeichen) und implizit (Metadaten) markiert werden.
 - **xAI (19.09.)**: **$200 Mrd. Bewertung** nach $10 Mrd. Funding-Runde – unter den wertvollsten Tech-Unternehmen weltweit.
 - **xAI (September)**: **X „For You"-Feed wird Grok-powered** – 100M+ Posts/Tag durch KI bewertet.
 - **Deutschland (September)**: **Bund-Länder-Streit** über EU AI Act-Umsetzung – 17 Landesdatenschutzbehörden kritisieren Zentralisierungspläne.
-- **OpenAI (30.09.)**: **Sora 2** startet als Standalone-App (US/Canada).
+- **OpenAI (30.09.)**: **Sora 2** startet als Standalone-App (US/Canada) mit iOS- und Android-Versionen inkl. „Cameo"-Funktion (eigene Stimme/Bild in generierten Videos).
 - **Apple (September)**: Rollout des **Foundation Models Framework** (on-device ~3B Parameter) und iOS/macOS-Ökosystem-Integration.
 
 ### Oktober 2025
@@ -152,6 +161,7 @@ Im letzten Quartal ist der Ton überall ähnlich:
 - **OpenAI (November)**: De-/Re-Priorisierung älterer Modelle in Richtung neuer Generationen (API-Migrationen werden zentral).
 - **Alibaba (18.11.)**: Consumer-Upgrade mit neuem Qwen-Chatbot (Signal: „China-Consumer-AI" wird massentauglicher).
 - **Perplexity (20.11.)**: **Comet Browser für Android** – Mobile-Expansion.
+- **Anthropic (22.11.)**: **$30 Mrd. Azure-Commitment + $15 Mrd. Investment** – strategische Partnerschaft mit Microsoft ($5 Mrd.) und Nvidia ($10 Mrd.). Claude-Modelle werden auf Azure und in Microsoft Foundry integriert.
 - **Hugging Face (Nov)**: **Transformers v5** – PyTorch als einziger Backend, 400+ Modellarchitekturen, vereinfachte APIs.
 
 ### Dezember 2025
@@ -170,12 +180,16 @@ Im letzten Quartal ist der Ton überall ähnlich:
 - **OpenAI + Disney (11.12.)**: Deal/Investment rund um **Sora**-Ecosystem und Content-IP.
 - **Perplexity (Dezember)**: **Memory-Feature** + Conversational UI + Partnerschaft mit Cristiano Ronaldo.
 - **Hugging Face (Dez 2024/2025)**: **smolagents** – minimalistische Library für KI-Agenten mit ~1.000 Zeilen Code + Online-Kurs.
+- **Google (17.12.)**: **Gemini 3 Flash** – leichtgewichtiges Speed-Modell, **3× schneller als Gemini 2.5 Pro**. Pricing: $0.50/M Input, $3/M Output. GPQA Diamond 90,4%, MMMU Pro 81,2%. Direkt in AI Mode Search integriert.
+- **Anthropic (18.12.)**: **„Skills"-Feature** für Enterprise-Automatisierung. **„Agent Skills" wird offener Standard** – interoperabel mit ChatGPT, Cursor, etc. Sicherheitslücke entdeckt (Ransomware-Risiko via bösartige Skills).
+- **Anthropic (Dez)**: **Claude Opus 4.5** – neues Flaggschiff mit verbesserter Usability, Reasoning und Coding-Fähigkeiten.
+- **Anthropic + Snowflake (Dez)**: **$200 Mio. Multi-Year-Deal** für Agentic AI in Enterprise (Fokus: Finanz- und Healthcare-Sektoren via Snowflake Cortex AI).
 
 ---
 
 ## Gantt (Monatsansicht): Wer hat wann geliefert? (Farbcodiert nach Hersteller)
 
-**Legende (Farben im Label):** 🟩 OpenAI · 🟦 Google · 🟪 Anthropic · 🩶 Apple · 🟣 DeepSeek · 🟧 Alibaba · 🔷 Baidu · 🟥 Microsoft · 🟨 AWS · 🟫 Cohere · 🩷 Mistral · ⬛ xAI · 🔵 Perplexity · 🤗 Hugging Face · 🇪🇺 EU/Regulierung
+**Legende (Farben im Label):** 🟩 OpenAI · 🟦 Google · 🟪 Anthropic · 🩶 Apple · 🟣 DeepSeek · 🟧 Alibaba · 🔷 Baidu · 🟥 Microsoft · 🟨 AWS · 🟫 Cohere · 🩷 Mistral · ⬛ xAI · 🔵 Perplexity · 🤗 Hugging Face · 🦙 Meta · 🇪🇺 EU/Regulierung · 🇨🇳 China
 
 ```mermaid
 gantt
@@ -191,6 +205,8 @@ gantt
   🟣 DeepSeek-V3.1 :milestone, deepseek_v31, 2025-08-21, 0d
 
   section OpenAI
+  🟩 o3-mini :milestone, openai_o3mini, 2025-01-31, 0d
+  🟩 o3 gecancelt → GPT-5 :milestone, openai_o3cancel, 2025-02-12, 0d
   🟩 Memory (ChatGPT) :milestone, openai_memory, 2025-04-10, 0d
   🟩 GPT-4.5 Wind-Down (API) :milestone, openai_gpt45, 2025-04-14, 0d
   🟩 ChatGPT Agent :milestone, openai_agent, 2025-07-17, 0d
@@ -213,8 +229,10 @@ gantt
   🟪 Claude 3.7 Sonnet :milestone, anthropic_37, 2025-02-24, 0d
   🟪 Claude 4 (Opus/Sonnet) :milestone, anthropic_4, 2025-05-22, 0d
   🟪 Opus 4.1 :milestone, anthropic_41, 2025-08-05, 0d
+  🟪 $30B Azure + $15B Investment :milestone, anthropic_msft, 2025-11-22, 0d
   🟪 Claude Code $1B + Bun :milestone, anthropic_bun, 2025-12-03, 0d
   🟪 MCP → Linux Foundation (AAIF) :milestone, anthropic_mcp, 2025-12-09, 0d
+  🟪 Skills Feature + Opus 4.5 :milestone, anthropic_skills, 2025-12-18, 0d
 
   section Google
   🟦 Gemini 2.0 Pro :milestone, google_g2pro, 2025-02-05, 0d
@@ -225,6 +243,7 @@ gantt
   🟦 Gemini 3 (Search) :milestone, google_g3, 2025-11-18, 0d
   🟦 Workspace Studio :milestone, google_workspace_studio, 2025-12-03, 0d
   🟦 Deep Research Agent :milestone, google_deep_research, 2025-12-11, 0d
+  🟦 Gemini 3 Flash :milestone, google_g3flash, 2025-12-17, 0d
 
   section Apple
   🩶 Xcode 26 + ChatGPT (WWDC) :milestone, apple_xcode26, 2025-06-09, 0d
@@ -279,10 +298,17 @@ gantt
   🤗 smolagents Library :milestone, hf_smolagents, 2025-01-15, 0d
   🤗 Transformers v5 :milestone, hf_transformers5, 2025-11-15, 0d
 
-  section Regulierung (EU/DE)
+  section Meta
+  🦙 Llama 4 Scout/Maverick :milestone, meta_llama4, 2025-04-05, 0d
+  🦙 Llama 4 Behemoth verzögert :milestone, meta_behemoth, 2025-05-15, 0d
+
+  section Regulierung (EU/DE/CN)
   🇪🇺 AI Act Verbote + AI Literacy :milestone, eu_feb, 2025-02-02, 0d
+  🇨🇳 China: Global AI Governance Plan :milestone, cn_governance, 2025-07-15, 0d
   🇪🇺 GPAI-Pflichten in Kraft :milestone, eu_gpai, 2025-08-02, 0d
+  🇨🇳 China: KI-Content-Kennzeichnungspflicht :milestone, cn_labeling, 2025-09-01, 0d
   🇩🇪 Bund-Länder-Streit (DE) :milestone, de_streit, 2025-09-15, 0d
+  🇨🇳 China: Cybersecurity-Gesetz Amendment :milestone, cn_cybersec, 2025-10-15, 0d
 ```
 
 **Lesenhilfe (wichtig):** Einträge mit „(Monat)" oder „angekündigt" sind bewusst **monatsscharf** (ohne exakten Veröffentlichungstag in der Quelle). Für die Gantt-Darstellung sind sie auf einen **repräsentativen Tag im Monat** gelegt.
@@ -295,13 +321,18 @@ gantt
 - **Claude 3.7 Sonnet (Feb)**: Hybrid-Reasoning / „extended thinking".
 - **Claude 4 (Mai)**: Fokus auf langes, autonomes Coding.
 - **Computer Use**: „Desktop steuern" wird produktisiert (Tool-Use als Kernkompetenz).
+- **Opus 4.1 (Aug)** und **Opus 4.5 (Dez)**: Kontinuierliche Flaggschiff-Iteration mit Fokus auf Usability und Coding.
+- **$30B Azure + $15B Investment (Nov)**: Strategischer Deal mit Microsoft und Nvidia – Claude-Modelle auf Azure, Integration in Microsoft Foundry. Größte Finanzierungsrunde des Jahres.
+- **Skills-Feature (Dez)**: Enterprise-Automatisierung; **Agent Skills als offener Standard** (interoperabel mit ChatGPT, Cursor). Sicherheitslücke entdeckt.
 - **Claude Code $1B Revenue (Dez)**: In nur 6 Monaten erreicht Claude Code $1 Mrd. Run-Rate Revenue – ein Rekord für Coding-Tools.
 - **Bun-Akquisition (Dez)**: Anthropic kauft die JavaScript-Runtime Bun, um Claude Code's Infrastruktur zu stärken.
+- **Snowflake-Deal (Dez)**: $200 Mio. Multi-Year-Partnerschaft für Agentic AI in Enterprise (Finanz/Healthcare).
 
 ### Google (Gemini)
 - **Gemini 2.x → 2.5**: Konsolidierung für Produktion (GA im Juni).
 - **Robotics / VLA**: Gemini wird nicht nur „Assistant", sondern „Actuator" (Robotik-Richtung).
 - **Gemini 3 (Nov)**: direkt in Search integriert; Agent- und Dev-Plattform-Story.
+- **Gemini 3 Flash (Dez)**: Leichtgewichtig, **3× schneller als 2.5 Pro**, $0.50/M Input. GPQA Diamond 90,4%. Direkt in AI Mode Search.
 - **Veo 3.1 (Okt)**: Video als ernsthafte Produktlinie.
 - **Workspace Studio (Dez)**: No-Code-Plattform zum Erstellen eigener KI-Agenten.
 - **Deep Research Agent (Dez)**: Basierend auf Gemini 3 Pro – für komplexe, mehrstufige Research-Aufgaben.
@@ -329,8 +360,15 @@ gantt
 - **MAI-1-preview (Aug)**: Microsofts **erstes In-House LLM** – trainiert auf 15.000 H100 GPUs.
 - **MAI-Image-1 (Okt)**: Microsofts **erstes In-House Text-to-Image Model** – in Bing Image Creator und Copilot integriert.
 
-### Meta / Open-Weight Ökosystem
-- 2025 selbst war hier eher **Konsolidierung und Distribution** (Cloud-Partnerschaften, Deployment-Ökosystem), während die letzten großen Llama-3.x Releases Ende 2024 lagen.
+### Meta (Llama 4)
+- **Llama 4 Scout + Maverick (Apr)**: Erste **nativ multimodale** Llama-Modelle (Text + Bild), MoE-Architektur:
+  - **Scout**: 17B aktive / 109B Gesamt-Parameter, **10 Mio. Token Context** (Rekord!), 16 Experts.
+  - **Maverick**: 17B aktive / 400B Gesamt-Parameter, 1 Mio. Context, 128 Experts.
+  - 12 Sprachen unterstützt.
+- **Security-Tools (Apr/Mai)**: **Llama Guard 4** (Text+Bild-Schutz), **LlamaFirewall** (Prompt Injection Detection), **Llama Prompt Guard 2** (Jailbreak-Erkennung).
+- **Llama 4 Behemoth (verzögert)**: 288B aktive / ~2T Gesamt-Parameter – auf Herbst 2025 oder später verschoben wegen Skalierungs-Problemen.
+- **Training-Daten**: Öffentliche Daten + lizenzierte Daten + öffentliche Posts von Instagram/Facebook + User-Interaktionen mit Meta AI.
+- **Rolle 2025**: Meta macht Llama 4 zum ersten ernsthaften **Open-Weight Multimodal Competitor** gegen GPT-4V und Gemini.
 
 ### Mistral
 - **Pixtral Large 25.02 (Apr)**: multimodal.
@@ -386,12 +424,16 @@ gantt
 ## OpenAI 2025: Produkte, Verschiebungen, was neu ist – und was ausläuft
 
 ### Was dazugekommen ist (aus Nutzersicht)
+- **o3-mini (Januar 2025)**: Kosteneffizientes Reasoning-Modell mit Function Calling und Structured Outputs – verfügbar für **Free- und Plus-User**. Erste „Thinking"-Demokratisierung.
 - **ChatGPT Memory (April 2025)**: ChatGPT kann „über alle Gespräche" hinweg referenzieren (kontrollierbar in Settings).
 - **ChatGPT Agent (Juli 2025)**: Aufgaben in einer virtuellen Umgebung selbstständig erledigen (Browsing, Tools, Connectoren).
 - **DevDay Tooling (Oktober 2025)**: AgentKit/ChatKit + **Codex GA** (Coding-Workflow als Produkt, nicht nur Feature).
 - **ChatGPT Atlas (Oktober 2025)**: KI-nativer Browser mit Agent Mode – **nach** Perplexity Comet.
-- **Sora 2 (Sept/Okt 2025)**: Standalone-App + API-Preview.
-- **GPT-5.2 (Dez 2025)**: neue Modellgeneration, stärkerer Fokus auf „Thinking"-Varianten.
+- **Sora 2 (Sept/Okt 2025)**: Standalone-App (iOS + Android) + API-Preview. „Cameo"-Feature: eigene Stimme/Bild in generierten Videos.
+- **GPT-5.2 (Dez 2025)**: neue Modellgeneration mit „Instant"- und „Thinking"-Modi, stärkerer Fokus auf Reasoning.
+
+### Was gecancelt / eingestellt wurde
+- **o3 (Februar 2025)**: Das geplante große Reasoning-Modell wurde **gecancelt** – stattdessen flossen die Technologien in GPT-5 als einheitliche Next-Gen-Plattform.
 
 ### Was nicht mehr „der Weg nach vorn" ist (Deprecations/Migrationen)
 - **GPT-4.5**: angekündigtes Auslaufen in der API (Migration auf neuere Modelle empfohlen).
@@ -425,12 +467,22 @@ gantt
 - Das verändert UX: weniger Chatbot, mehr „intelligente Funktionen überall".
 
 ### 5) Governance & Regulation greifen in die Roadmaps
-- Der **EU AI Act** hat 2025 mehrere Meilensteine erreicht:
-  - **Februar 2025**: Verbote bestimmter KI-Praktiken (z.B. Social Scoring, manipulative Systeme) + AI-Literacy-Anforderungen treten in Kraft.
-  - **August 2025**: Pflichten für **General-Purpose AI** (Foundation Models) – Dokumentation, Risiko-Management, Copyright-Compliance.
-  - **Deutschland (September)**: **Bund-Länder-Streit** über Zentralisierung der Aufsicht – 17 Landesdatenschutzbehörden kritisieren Bundespläne.
-  - **August 2026** (Ausblick): High-Risk-AI-Regeln treten vollständig in Kraft.
-- Ergebnis: mehr Fokus auf **Tracing, Evals, Safety-Cases, Model Cards** – und auf „Compliance by Design".
+
+#### EU AI Act
+- **Februar 2025**: Verbote bestimmter KI-Praktiken (z.B. Social Scoring, manipulative Systeme) + AI-Literacy-Anforderungen treten in Kraft.
+- **August 2025**: Pflichten für **General-Purpose AI** (Foundation Models) – Dokumentation, Risiko-Management, Copyright-Compliance.
+- **Deutschland (September)**: **Bund-Länder-Streit** über Zentralisierung der Aufsicht – 17 Landesdatenschutzbehörden kritisieren Bundespläne.
+- **August 2026** (Ausblick): High-Risk-AI-Regeln treten vollständig in Kraft.
+
+#### China KI-Regulierung 2025 (parallel zur EU)
+- **Juli 2025**: **„Action Plan for Global AI Governance"** – 13-Punkte-Roadmap für internationale KI-Standards (Infrastruktur, Datenqualität, Offenheit, Nachhaltigkeit).
+- **September 2025**: **Pflicht zur KI-Content-Kennzeichnung** tritt in Kraft – alle KI-generierten Inhalte müssen **explizit** (sichtbare Wasserzeichen/Labels) und **implizit** (maschinenlesbare Metadaten) gekennzeichnet werden.
+- **Oktober 2025**: **Cybersecurity-Gesetz-Amendment** verabschiedet – Fokus auf „sichere und solide" KI-Entwicklung, ethische Standards, Infrastruktur-Ausbau. In Kraft ab 01.01.2026.
+- **Zwei-Stufen-System**: Basis-Modelle benötigen formale Genehmigung; Apps auf genehmigten Modellen nur Registrierung.
+
+#### Ergebnis global
+- Mehr Fokus auf **Tracing, Evals, Safety-Cases, Model Cards** – und auf „Compliance by Design".
+- **Labelingpflichten** (EU + China) verändern Workflows für Content-Generierung.
 
 ### 6) KI-native Browser als neues Schlachtfeld
 - **Perplexity Comet (Juli)** und **OpenAI Atlas (Oktober)** zeigen: Der Browser wird zum KI-Interface.
@@ -444,6 +496,11 @@ gantt
 - **Hugging Face Transformers v5** etabliert PyTorch als Standard-Backend und vereinfacht die Integration mit Inference-Engines.
 - **smolagents** zeigt: Agent-Entwicklung wird auch für kleinere Teams zugänglich (~1.000 Zeilen Code).
 - **vLLM** und ähnliche High-Performance-Engines werden kritisch für Produktion – nicht mehr nur für Forschung.
+
+### 9) Open-Weight Multimodal wird Realität
+- **Meta Llama 4** ist das erste Open-Weight-Modell, das **nativ multimodal** (Text + Bild) und mit **MoE-Architektur** kommt.
+- **10 Mio. Token Context** (Scout) setzt neuen Maßstab für Open-Source – vorher undenkbar.
+- **Security-Tooling** (Llama Guard 4, LlamaFirewall) zeigt: Open-Source-Ökosystem wird Enterprise-ready.
 
 ---
 
@@ -681,6 +738,35 @@ Im März 2025 behauptete DeepSeek eine **theoretische Kosten-Profit-Ratio von 54
 - Apple Foundation Models Framework: [Apple Newsroom – Foundation Models framework](https://www.apple.com/newsroom/2025/09/apples-foundation-models-framework-unlocks-new-intelligent-app-experiences/)
 - Apple Xcode 26 + ChatGPT: [Apple Newsroom – Developer tools (WWDC25)](https://www.apple.com/newsroom/2025/06/apple-supercharges-its-tools-and-technologies-for-developers/)
 - Apple Siri auf 2026 verschoben: [MacRumors – Personalized Siri still not ready](https://www.macrumors.com/2025/06/09/personalized-siri-still-not-ready/)
+
+### Meta (Llama 4)
+- Llama 4 Scout/Maverick: [Wikipedia – Llama (language model)](https://en.wikipedia.org/wiki/Llama_%28language_model%29)
+- Llama 4 Behemoth Verzögerung: [Axios – Meta delays "Behemoth" AI model release](https://www.axios.com/2025/05/15/meta-behemoth-llama-scaling-delays)
+- LlamaCon Announcements: [Forbes – Everything Meta Announced at LlamaCon](https://www.forbes.com/sites/janakirammsv/2025/05/01/everything-meta-announced-at-llamacon/)
+- Llama Guard 4 / LlamaFirewall: [Forbes – Meta open-source security tools](https://www.forbes.com/sites/janakirammsv/2025/05/01/everything-meta-announced-at-llamacon/)
+
+### OpenAI – Zusätzliche Quellen
+- o3-mini Launch: [MacRumors – OpenAI o3-mini launch](https://www.macrumors.com/2025/01/31/openai-o3-mini-launch/)
+- o3 Cancellation: [TechCrunch – OpenAI cancels o3 in favor of unified next-gen release](https://techcrunch.com/2025/02/12/openai-cancels-its-o3-ai-model-in-favor-of-a-unified-next-gen-release/)
+- Sora 2 Cameo Feature: [TechRadar – Sora 2 AI video app](https://www.techradar.com/ai-platforms-assistants/openai-just-launched-sora-2-an-ai-video-app-that-lets-you-star-in-the-scenes-you-generate)
+
+### Google – Zusätzliche Quellen
+- Gemini 3 Flash: [TechRadar – Gemini 3 Flash as fast as traditional Search](https://www.techradar.com/ai-platforms-assistants/gemini/google-launches-gemini-3-flash-and-claims-its-as-fast-as-using-traditional-search)
+- Gemini 3 Flash Details: [Android Central – Gemini 3 Flash raw speed](https://www.androidcentral.com/apps-software/ai/gemini-3-flash-googles-lightweight-ai-model-stuns-with-raw-speed-in-ai-mode-and-more)
+- Gemini 3 Flash Pricing: [Axios – Google Gemini 3 Flash fast, cheap, everywhere](https://www.axios.com/2025/12/17/google-gemini-3-flash-pro-model)
+
+### Anthropic – Zusätzliche Quellen
+- Skills Feature + Agent Skills Standard: [Axios – Anthropic aims to tame workplace AI](https://www.axios.com/2025/12/18/anthropic-claude-enterprise-skills-update)
+- Skills Security Vulnerability: [Axios – Researchers trick Claude plug-in into deploying ransomware](https://www.axios.com/2025/12/02/anthropic-claude-skills-medusalocker-ransomware)
+- $30B Azure + $15B Investment: [TechRadar – Anthropic Azure + Microsoft/Nvidia investment](https://www.techradar.com/pro/anthropic-just-bought-usd30-billion-of-azure-cloud-capability-and-has-netted-usd15-billion-investment-from-microsoft-and-nvidia-in-return)
+- Claude Opus 4.5: [TechRadar – Claude Opus 4.5 now live](https://www.techradar.com/ai-platforms-assistants/claude/claude-opus-4-5-is-now-live-and-meaningfully-better-at-everyday-tasks-and-coding-challenges)
+- Snowflake Partnership: [ITPro – Snowflake $200M deal with Anthropic](https://www.itpro.com/technology/artificial-intelligence/snowflake-inks-usd200m-deal-with-anthropic-to-drive-agentic-ai-in-the-enterprise)
+
+### China KI-Regulierung
+- China KI-Content-Kennzeichnungspflicht: [Yoel Molina – China's Approach to AI Regulation 2025](https://www.yoelmolina.com/china%E2%80%99s-approach-to-ai-regulation-the-playbook-the-2025-updates-and-what-it-means-for-businesses)
+- China Cybersecurity Law Amendment: [People's Daily – Amendment to Cybersecurity Law](https://en.people.cn/n3/2025/1029/c90000-20383144.html)
+- China Global AI Governance Action Plan: [ANSI – China announces Action Plan for Global AI Governance](https://www.ansi.org/standards-news/all-news/8-1-25-china-announces-action-plan-for-global-ai-governance)
+- China Two-Tier Regulatory System: [HelloChinaTech – China's Generative AI Regulation 2025](https://hellochinatech.com/p/chinas-generative-ai-regulation-2025)
 
 ### EU/Deutschland Regulierung
 - EU AI Act Timeline: [EU AI Act Service Desk – Implementation timeline](https://ai-act-service-desk.ec.europa.eu/en/ai-act/eu-ai-act-implementation-timeline)
