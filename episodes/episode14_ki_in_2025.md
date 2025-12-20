@@ -189,127 +189,152 @@
 
   ## Gantt (Monatsansicht): Wer hat wann geliefert? (Farbcodiert nach Hersteller)
 
-  **Legende (Farben im Label):** 🟩 OpenAI · 🟦 Google · 🟪 Anthropic · 🩶 Apple · 🟣 DeepSeek · 🟧 Alibaba · 🔷 Baidu · 🟥 Microsoft · 🟨 AWS · 🟫 Cohere · 🩷 Mistral · ⬛ xAI · 🔵 Perplexity · 🤗 Hugging Face · 🦙 Meta · 🇪🇺 EU/Regulierung · 🇨🇳 China
+  **Legend:** 🟩 OpenAI · 🟦 Google · 🟪 Anthropic · 🩶 Apple · 🟣 DeepSeek · 🟧 Alibaba · 🔷 Baidu · 🟥 Microsoft · 🟨 AWS · 🟫 Cohere · 🩷 Mistral · ⬛ xAI · 🔵 Perplexity · 🤗 Hugging Face · 🦙 Meta · 🇩🇪 Deutschland (Aleph Alpha, DeepL) · 🇫🇷 Frankreich (H Company, Poolside) · 🇬🇧 UK (Synthesia) · 🇪🇺 EU/Regulations · 🇨🇳 China/Regulations
 
   ```mermaid
-  gantt
-    title Foundation Models 2025 – Monatsübersicht (Releases/Ankündigungen)
-    dateFormat  YYYY-MM-DD
-    axisFormat  %b
-    tickInterval 1month
+%%{init: {'gantt': {'useWidth': 1600, 'barHeight': 28, 'fontSize': 25, 'sectionFontSize': 25, 'leftPadding': 240, 'titleTopMargin': 30, 'topPadding': 60, 'numberSectionStyles': 4}, 'themeVariables': {'fontSize': '28px', 'ganttTitleFontSize': '32px', 'ganttAxisFontSize': '24px'}}}%%
+gantt
+  title Foundation Models 2025 - Monatsuebersicht
+  dateFormat YYYY-MM-DD
+  axisFormat %b
+  tickInterval 1month
 
-    section DeepSeek
-    🟣 DeepSeek-V3 :milestone, deepseek_v3, 2025-01-10, 0d
-    🟣 DeepSeek-R1 :milestone, deepseek_r1, 2025-01-20, 0d
-    🟣 R1 Update (HF/MIT) :milestone, deepseek_r1_update, 2025-05-28, 0d
-    🟣 DeepSeek-V3.1 :milestone, deepseek_v31, 2025-08-21, 0d
+  section 🟣 DeepSeek
+  🟣 DeepSeek-V3 :milestone, deepseek_v3, 2025-01-10, 0d
+  🟣 DeepSeek-R1 :milestone, deepseek_r1, 2025-01-20, 0d
+  🟣 R1 Update :milestone, deepseek_r1_update, 2025-05-28, 0d
+  🟣 DeepSeek-V3.1 :milestone, deepseek_v31, 2025-08-21, 0d
 
-    section OpenAI
-    🟩 o3-mini :milestone, openai_o3mini, 2025-01-31, 0d
-    🟩 o3 gecancelt → GPT-5 :milestone, openai_o3cancel, 2025-02-12, 0d
-    🟩 Memory (ChatGPT) :milestone, openai_memory, 2025-04-10, 0d
-    🟩 GPT-4.5 Wind-Down (API) :milestone, openai_gpt45, 2025-04-14, 0d
-    🟩 ChatGPT Agent :milestone, openai_agent, 2025-07-17, 0d
-    🟩 GPT-5 :milestone, openai_gpt5, 2025-08-07, 0d
-    🟩 gpt-oss (open weights) :milestone, openai_gptoss, 2025-08-15, 0d
-    🟩 Sora 2 App :milestone, openai_sora2_app, 2025-09-30, 0d
-    🟩 DevDay + Codex GA :milestone, openai_devday, 2025-10-06, 0d
-    🟩 ChatGPT Atlas (Browser) :milestone, openai_atlas, 2025-10-21, 0d
-    🟩 GPT-5.2 :milestone, openai_gpt52, 2025-12-11, 0d
+  section 🟩 OpenAI
+  🟩 o3-mini :milestone, openai_o3mini, 2025-01-31, 0d
+  🟩 o3 gecancelt :milestone, openai_o3cancel, 2025-02-12, 0d
+  🟩 Memory ChatGPT :milestone, openai_memory, 2025-04-10, 0d
+  🟩 GPT-4.5 Wind-Down :milestone, openai_gpt45, 2025-04-14, 0d
+  🟩 ChatGPT Agent :milestone, openai_agent, 2025-07-17, 0d
+  🟩 GPT-5 :milestone, openai_gpt5, 2025-08-07, 0d
+  🟩 gpt-oss :milestone, openai_gptoss, 2025-08-15, 0d
+  🟩 Sora 2 App :milestone, openai_sora2_app, 2025-09-30, 0d
+  🟩 DevDay Codex GA :milestone, openai_devday, 2025-10-06, 0d
+  🟩 ChatGPT Atlas :milestone, openai_atlas, 2025-10-21, 0d
+  🟩 GPT-5.2 :milestone, openai_gpt52, 2025-12-11, 0d
 
-    section Perplexity
-    🔵 Perplexity Assistant (Android) :milestone, pplx_assistant, 2025-01-23, 0d
-    🔵 Comet Browser angekündigt :milestone, pplx_comet_announce, 2025-02-24, 0d
-    🔵 Comet Browser Launch :milestone, pplx_comet_launch, 2025-07-09, 0d
-    🔵 Comet kostenlos :milestone, pplx_comet_free, 2025-10-02, 0d
-    🔵 Perplexity Patents :milestone, pplx_patents, 2025-10-30, 0d
-    🔵 Comet Android :milestone, pplx_comet_android, 2025-11-20, 0d
+  section 🔵 Perplexity
+  🔵 Assistant Android :milestone, pplx_assistant, 2025-01-23, 0d
+  🔵 Comet angekuendigt :milestone, pplx_comet_announce, 2025-02-24, 0d
+  🔵 Comet Launch :milestone, pplx_comet_launch, 2025-07-09, 0d
+  🔵 Comet kostenlos :milestone, pplx_comet_free, 2025-10-02, 0d
+  🔵 Patents :milestone, pplx_patents, 2025-10-30, 0d
+  🔵 Comet Android :milestone, pplx_comet_android, 2025-11-20, 0d
 
-    section Anthropic
-    🟪 Claude 3.7 Sonnet :milestone, anthropic_37, 2025-02-24, 0d
-    🟪 Claude 4 (Opus/Sonnet) :milestone, anthropic_4, 2025-05-22, 0d
-    🟪 Opus 4.1 :milestone, anthropic_41, 2025-08-05, 0d
-    🟪 $30B Azure + $15B Investment :milestone, anthropic_msft, 2025-11-22, 0d
-    🟪 Claude Code $1B + Bun :milestone, anthropic_bun, 2025-12-03, 0d
-    🟪 MCP → Linux Foundation (AAIF) :milestone, anthropic_mcp, 2025-12-09, 0d
-    🟪 Skills Feature + Opus 4.5 :milestone, anthropic_skills, 2025-12-18, 0d
+  section 🟪 Anthropic
+  🟪 Claude 3.7 Sonnet :milestone, anthropic_37, 2025-02-24, 0d
+  🟪 Claude 4 :milestone, anthropic_4, 2025-05-22, 0d
+  🟪 Opus 4.1 :milestone, anthropic_41, 2025-08-05, 0d
+  🟪 Azure 30B Investment :milestone, anthropic_msft, 2025-11-22, 0d
+  🟪 Claude Code 1B Bun :milestone, anthropic_bun, 2025-12-03, 0d
+  🟪 MCP Linux Foundation :milestone, anthropic_mcp, 2025-12-09, 0d
+  🟪 Skills Opus 4.5 :milestone, anthropic_skills, 2025-12-18, 0d
 
-    section Google
-    🟦 Gemini 2.0 Pro :milestone, google_g2pro, 2025-02-05, 0d
-    🟦 Gemini Robotics :milestone, google_robotics, 2025-03-12, 0d
-    🟦 Gemini 2.5 Pro Exp :milestone, google_g25exp, 2025-03-25, 0d
-    🟦 Gemini 2.5 GA :milestone, google_g25ga, 2025-06-17, 0d
-    🟦 Veo 3.1 :milestone, google_veo31, 2025-10-15, 0d
-    🟦 Gemini 3 (Search) :milestone, google_g3, 2025-11-18, 0d
-    🟦 Workspace Studio :milestone, google_workspace_studio, 2025-12-03, 0d
-    🟦 Deep Research Agent :milestone, google_deep_research, 2025-12-11, 0d
-    🟦 Gemini 3 Flash :milestone, google_g3flash, 2025-12-17, 0d
+  section 🟦 Google
+  🟦 Gemini 2.0 Pro :milestone, google_g2pro, 2025-02-05, 0d
+  🟦 Gemini Robotics :milestone, google_robotics, 2025-03-12, 0d
+  🟦 Gemini 2.5 Pro Exp :milestone, google_g25exp, 2025-03-25, 0d
+  🟦 Gemini 2.5 GA :milestone, google_g25ga, 2025-06-17, 0d
+  🟦 Veo 3.1 :milestone, google_veo31, 2025-10-15, 0d
+  🟦 Gemini 3 Search :milestone, google_g3, 2025-11-18, 0d
+  🟦 Workspace Studio :milestone, google_workspace_studio, 2025-12-03, 0d
+  🟦 Deep Research Agent :milestone, google_deep_research, 2025-12-11, 0d
+  🟦 Gemini 3 Flash :milestone, google_g3flash, 2025-12-17, 0d
 
-    section Apple
-    🩶 Xcode 26 + ChatGPT (WWDC) :milestone, apple_xcode26, 2025-06-09, 0d
-    🩶 Foundation Models Framework Rollout :milestone, apple_fmf, 2025-09-15, 0d
+  section 🩶 Apple
+  🩶 Xcode 26 ChatGPT :milestone, apple_xcode26, 2025-06-09, 0d
+  🩶 Foundation Models :milestone, apple_fmf, 2025-09-15, 0d
 
-    section Alibaba
-    🟧 Qwen 2.5-Max :milestone, alibaba_qwen25max, 2025-01-29, 0d
-    🟧 Wan 2.1 (open source) :milestone, alibaba_wan21, 2025-02-25, 0d
-    🟧 Qwen 3 (angekündigt) :milestone, alibaba_qwen3_announce, 2025-04-01, 0d
-    🟧 Qwen Chatbot (Upgrade) :milestone, alibaba_qwen_chatbot, 2025-11-18, 0d
+  section 🟧 Alibaba
+  🟧 Qwen 2.5-Max :milestone, alibaba_qwen25max, 2025-01-29, 0d
+  🟧 Wan 2.1 open source :milestone, alibaba_wan21, 2025-02-25, 0d
+  🟧 Qwen 3 angekuendigt :milestone, alibaba_qwen3_announce, 2025-04-01, 0d
+  🟧 Qwen Chatbot :milestone, alibaba_qwen_chatbot, 2025-11-18, 0d
 
-    section Baidu
-    🔷 ERNIE 4.5 + X1 :milestone, baidu_ernie45, 2025-03-16, 0d
-    🔷 ERNIE 4.5 Turbo + X1 Turbo :milestone, baidu_ernie_turbo, 2025-04-25, 0d
-    🔷 Uber-Partnerschaft (Apollo Go) :milestone, baidu_uber, 2025-07-15, 0d
-    🔷 ERNIE 5.0 (Baidu World) :milestone, baidu_ernie50, 2025-11-13, 0d
+  section 🔷 Baidu
+  🔷 ERNIE 4.5 X1 :milestone, baidu_ernie45, 2025-03-16, 0d
+  🔷 ERNIE Turbo :milestone, baidu_ernie_turbo, 2025-04-25, 0d
+  🔷 Uber Apollo Go :milestone, baidu_uber, 2025-07-15, 0d
+  🔷 ERNIE 5.0 :milestone, baidu_ernie50, 2025-11-13, 0d
 
-    section Microsoft
-    🟥 Phi-4 (Monat) :milestone, ms_phi4, 2025-01-15, 0d
-    🟥 DeepSeek auf Azure :milestone, ms_azure_deepseek, 2025-01-29, 0d
-    🟥 Phi-4 mini/multimodal (Monat) :milestone, ms_phi4_variants, 2025-02-15, 0d
-    🟥 Phi-4-reasoning (Monat) :milestone, ms_phi4_reasoning, 2025-04-15, 0d
-    🟥 Build 2025 (Agentic Web) :milestone, ms_build, 2025-05-19, 0d
-    🟥 Azure AI Foundry GA :milestone, ms_foundry, 2025-05-19, 0d
-    🟥 MAI-1-preview :milestone, ms_mai1, 2025-08-15, 0d
-    🟥 MAI-Image-1 :milestone, ms_mai_image, 2025-10-14, 0d
+  section 🟥 Microsoft
+  🟥 Phi-4 :milestone, ms_phi4, 2025-01-15, 0d
+  🟥 DeepSeek Azure :milestone, ms_azure_deepseek, 2025-01-29, 0d
+  🟥 Phi-4 mini multimodal :milestone, ms_phi4_variants, 2025-02-15, 0d
+  🟥 Phi-4-reasoning :milestone, ms_phi4_reasoning, 2025-04-15, 0d
+  🟥 Build 2025 :milestone, ms_build, 2025-05-19, 0d
+  🟥 Azure AI Foundry GA :milestone, ms_foundry, 2025-05-19, 0d
+  🟥 MAI-1-preview :milestone, ms_mai1, 2025-08-15, 0d
+  🟥 MAI-Image-1 :milestone, ms_mai_image, 2025-10-14, 0d
 
-    section Amazon (AWS)
-    🟨 Nova Premier (Bedrock) :milestone, aws_nova_premier, 2025-04-30, 0d
-    🟨 Bedrock AgentCore GA :milestone, aws_agentcore, 2025-10-15, 0d
-    🟨 re:Invent: Nova 2 + Forge + Trainium3 + Kiro :milestone, aws_reinvent, 2025-12-02, 0d
+  section 🟨 Amazon AWS
+  🟨 Nova Premier :milestone, aws_nova_premier, 2025-04-30, 0d
+  🟨 AgentCore GA :milestone, aws_agentcore, 2025-10-15, 0d
+  🟨 re-Invent Nova Forge :milestone, aws_reinvent, 2025-12-02, 0d
 
-    section Cohere
-    🟫 Command A :milestone, cohere_commanda, 2025-03-13, 0d
-    🟫 Command A Vision :milestone, cohere_vision, 2025-07-15, 0d
-    🟫 Rerank 4 (32K Context) :milestone, cohere_rerank4, 2025-12-10, 0d
+  section 🟫 Cohere
+  🟫 Command A :milestone, cohere_commanda, 2025-03-13, 0d
+  🟫 Command A Vision :milestone, cohere_vision, 2025-07-15, 0d
+  🟫 Rerank 4 :milestone, cohere_rerank4, 2025-12-10, 0d
 
-    section Mistral
-    🩷 Pixtral Large 25.02 :milestone, mistral_pixtral, 2025-04-08, 0d
-    🩷 Mistral Large 3 :milestone, mistral_large3, 2025-12-02, 0d
+  section 🩷 Mistral
+  🩷 Pixtral Large :milestone, mistral_pixtral, 2025-04-08, 0d
+  🩷 Mistral Large 3 :milestone, mistral_large3, 2025-12-02, 0d
 
-    section xAI
-    ⬛ Grok 3 :milestone, xai_grok3, 2025-02-18, 0d
-    ⬛ xAI kauft X ($33B) :milestone, xai_buys_x, 2025-03-28, 0d
-    ⬛ Grok 3 (Oracle Cloud) :milestone, xai_oracle, 2025-06-17, 0d
-    ⬛ Grok 4 + Tesla :milestone, xai_grok4, 2025-07-10, 0d
-    ⬛ Grok 2.5 open-sourced :milestone, xai_grok25_oss, 2025-08-23, 0d
-    ⬛ $200B Bewertung :milestone, xai_valuation, 2025-09-19, 0d
-    ⬛ X Feed Grok-powered :milestone, xai_feed, 2025-11-15, 0d
+  section ⬛ xAI
+  ⬛ Grok 3 :milestone, xai_grok3, 2025-02-18, 0d
+  ⬛ xAI kauft X :milestone, xai_buys_x, 2025-03-28, 0d
+  ⬛ Grok 3 Oracle :milestone, xai_oracle, 2025-06-17, 0d
+  ⬛ Grok 4 Tesla :milestone, xai_grok4, 2025-07-10, 0d
+  ⬛ Grok 2.5 open :milestone, xai_grok25_oss, 2025-08-23, 0d
+  ⬛ 200B Bewertung :milestone, xai_valuation, 2025-09-19, 0d
+  ⬛ X Feed Grok :milestone, xai_feed, 2025-11-15, 0d
 
-    section Hugging Face
-    🤗 smolagents Library :milestone, hf_smolagents, 2025-01-15, 0d
-    🤗 Transformers v5 :milestone, hf_transformers5, 2025-11-15, 0d
+  section 🤗 Hugging Face
+  🤗 smolagents :milestone, hf_smolagents, 2025-01-15, 0d
+  🤗 Transformers v5 :milestone, hf_transformers5, 2025-11-15, 0d
 
-    section Meta
-    🦙 Llama 4 Scout/Maverick :milestone, meta_llama4, 2025-04-05, 0d
-    🦙 Llama 4 Behemoth verzögert :milestone, meta_behemoth, 2025-05-15, 0d
+  section 🦙 Meta
+  🦙 Llama 4 Scout Maverick :milestone, meta_llama4, 2025-04-05, 0d
+  🦙 Llama 4 Behemoth :milestone, meta_behemoth, 2025-05-15, 0d
 
-    section Regulierung (EU/DE/CN)
-    🇪🇺 AI Act Verbote + AI Literacy :milestone, eu_feb, 2025-02-02, 0d
-    🇨🇳 China: Global AI Governance Plan :milestone, cn_governance, 2025-07-15, 0d
-    🇪🇺 GPAI-Pflichten in Kraft :milestone, eu_gpai, 2025-08-02, 0d
-    🇨🇳 China: KI-Content-Kennzeichnungspflicht :milestone, cn_labeling, 2025-09-01, 0d
-    🇩🇪 Bund-Länder-Streit (DE) :milestone, de_streit, 2025-09-15, 0d
-    🇨🇳 China: Cybersecurity-Gesetz Amendment :milestone, cn_cybersec, 2025-10-15, 0d
-  ```
+  section 🇩🇪 Aleph Alpha
+  🇩🇪 T-Free Architektur :milestone, aa_tfree, 2025-01-15, 0d
+  🇩🇪 thingsTHINKING Akquisition :milestone, aa_things, 2025-04-10, 0d
+  🇩🇪 Pharia Industrial HMI :milestone, aa_hmi, 2025-04-22, 0d
+  🇩🇪 STACKIT Partnerschaft :milestone, aa_stackit, 2025-05-15, 0d
+
+  section 🇩🇪 DeepL
+  🇩🇪 DeepL Agent Launch :milestone, deepl_agent, 2025-09-15, 0d
+
+  section 🇫🇷 H Company
+  🇫🇷 Tester H Agent :milestone, h_tester, 2025-06-15, 0d
+  🇫🇷 CEO Wechsel Pivot :milestone, h_pivot, 2025-06-20, 0d
+
+  section 🇫🇷 Poolside AI
+  🇫🇷 500M Funding AGI :milestone, poolside_funding, 2025-03-15, 0d
+
+  section 🇬🇧 Synthesia
+  🇬🇧 180M Series D :milestone, synth_d, 2025-01-20, 0d
+  🇬🇧 Shutterstock Deal :milestone, synth_shutter, 2025-04-10, 0d
+  🇬🇧 200M GV 4B Valuation :milestone, synth_gv, 2025-11-15, 0d
+
+  section 🇪🇺 EU Events
+  🇫🇷 Paris AI Summit :milestone, paris_summit, 2025-02-10, 0d
+
+  section 🌍 Regulierung
+  🇪🇺 EU AI Act Verbote :milestone, eu_feb, 2025-02-02, 0d
+  🇨🇳 CN AI Governance :milestone, cn_governance, 2025-07-15, 0d
+  🇪🇺 EU GPAI Pflichten :milestone, eu_gpai, 2025-08-02, 0d
+  🇨🇳 CN Content Labels :milestone, cn_labeling, 2025-09-01, 0d
+  🇩🇪 DE Bund-Laender :milestone, de_streit, 2025-09-15, 0d
+  🇨🇳 CN Cybersecurity :milestone, cn_cybersec, 2025-10-15, 0d
+```
 
   **Lesenhilfe (wichtig):** Einträge mit „(Monat)" oder „angekündigt" sind bewusst **monatsscharf** (ohne exakten Veröffentlichungstag in der Quelle). Für die Gantt-Darstellung sind sie auf einen **repräsentativen Tag im Monat** gelegt.
 
@@ -417,6 +442,45 @@
   ### Apple
   - **Foundation Models Framework (Sep)**: On-Device Foundation Model (~3B Parameter) für iOS/macOS.
   - **Apple Intelligence Features (WWDC/laufend)**: Visual Intelligence, Genmoji, Image Playground, Writing Tools.
+
+---
+
+## 🇪🇺 Europäische KI-Unicorns 2025
+
+### 🇩🇪 Aleph Alpha (Heidelberg)
+- **T-Free Architektur (Jan)**: Tokenizer-freie LLM-Architektur – verbessert Effizienz bei Feinabstimmung und Mehrsprachigkeit. Entwickelt mit AMD und Schwarz Digits.
+- **thingsTHINKING-Akquisition (Apr)**: Übernahme des Karlsruher NLP-Startups für Textanalyse in Industrie und Finanzwesen. Integration der „semantha"-Plattform.
+- **Pharia Industrial Engineering (Apr, Hannover Messe)**: KI-Suite für Produktentwicklung mit bis zu 30% Effizienzsteigerung. DSGVO- und EU AI Act-konform.
+- **STACKIT-Partnerschaft (Mai)**: PhariaAI-as-a-Service auf Schwarz-Gruppe-Cloud – souveräne, DSGVO-konforme KI für Unternehmen und Behörden.
+- **Positionierung**: Fokus auf **Datensouveränität** und **EU-Compliance** statt Benchmark-Wettbewerb mit US/China.
+
+### 🇩🇪 DeepL (Köln)
+- **DeepL Agent (Sep)**: Autonomer KI-Coworker für Wissensarbeiter – basiert auf eigenem LLM + externen Modellen.
+- **Strategiewechsel**: Von Translation-Only zu **Enterprise AI Platform**.
+- **Unique Selling Point**: 7+ Jahre proprietäre Trainingsdaten für Translation/Content Creation.
+
+### 🇫🇷 H Company (Paris, ex-DeepMind-Gründer)
+- **Holo-1**: Proprietäres Visual-Language-Model für Agenten.
+- **Agent-Suite**: Runner H (API-Automatisierung), Surfer H (Browser-Agent), Tester H (Juni 2025).
+- **CEO-Wechsel (Jun)**: Charles Kantor tritt zurück, Pivot zu „Agentic Services".
+- **Funding**: $220M Seed (2024) – größte Seed-Runde Europas.
+
+### 🇫🇷 Poolside AI (Paris)
+- **$500M Funding (2025)**: Für AGI-Forschung und Coding-Modelle.
+- **10.000 GPU Cluster**: Massiver Compute-Ausbau.
+- **RLCEF**: Reinforcement Learning from Code Execution Feedback – spezialisiert auf Software-Entwicklung.
+
+### 🇬🇧 Synthesia (London)
+- **$180M Series D (Jan)**: UK's wertvollstes generatives KI-Medienunternehmen.
+- **Shutterstock-Partnerschaft (Apr)**: Lizenzierung von Videocontent für Avatar-Training.
+- **$200M GV-Runde (Nov)**: Google Ventures führt; $4B Bewertung.
+- **Synthesia 2.0**: Enterprise-AI-Video-Plattform mit Personal Avatars, AI Screen Recorder, Multilingual Player.
+
+### 🇫🇷 Paris AI Summit (Feb 2025)
+- Co-Präsidiert von **Macron und Modi**.
+- 1.000+ Teilnehmer: Weltführer, Forscher, Tech-CEOs.
+- Ziel: „Dritte Weg" für KI-Entwicklung neben USA und China.
+- Fokus: Open Source, Entwicklungsländer, nachhaltige KI.
   - **Hinweis**: Die angekündigte „personalisierte Siri" wurde auf 2026 verschoben.
 
   ---
@@ -738,6 +802,35 @@
   - Apple Foundation Models Framework: [Apple Newsroom – Foundation Models framework](https://www.apple.com/newsroom/2025/09/apples-foundation-models-framework-unlocks-new-intelligent-app-experiences/)
   - Apple Xcode 26 + ChatGPT: [Apple Newsroom – Developer tools (WWDC25)](https://www.apple.com/newsroom/2025/06/apple-supercharges-its-tools-and-technologies-for-developers/)
   - Apple Siri auf 2026 verschoben: [MacRumors – Personalized Siri still not ready](https://www.macrumors.com/2025/06/09/personalized-siri-still-not-ready/)
+
+### 🇩🇪 Aleph Alpha (Deutschland)
+  - T-Free Architektur: [Aleph Alpha – T-Free Architecture Announcement](https://aleph-alpha.com/aleph-alpha-announces-launch-of-a-pioneering-new-tokenizer-free-t-free-architecture-innovation-for-next-generation-sovereign-llms-and-a-new-powerful-collaboration-with-amd-and-schwarz-digits/)
+  - STACKIT Partnerschaft: [Aleph Alpha – STACKIT PhariaAI-as-a-Service](https://aleph-alpha.com/press-post/aleph-alpha-partners-with-stackit-to-deliver-sovereign-enterprise-ai-at-scale-with-pharia-ai-as-a-service/)
+  - thingsTHINKING Akquisition: [semantha.de – Aleph Alpha acquires thingsTHINKING](https://www.semantha.de/aleph-alpha-acquires-thingsthinking/)
+  - Pharia Industrial (Hannover Messe): [Hannover Messe 2025 Press Release](https://www.hannovermesse.de/apollo/hannover_messe_2025/obs/Binary/A1408058/PM%20HMI%20GER.pdf)
+  - Pharia-1-LLM: [Aleph Alpha – Introducing Pharia-1-LLM](https://aleph-alpha.com/introducing-pharia-1-llm-transparent-and-compliant/)
+
+### 🇩🇪 DeepL (Deutschland)
+  - DeepL Agent: [AIBase – DeepL launches autonomous AI coworker](https://www.aibase.com/news/www.aibase.com/news/21046)
+  - Next-Gen LLM (2024): [PR Newswire – DeepL Launches Next-Generation LLM](https://www.prnewswire.com/news-releases/deepl-launches-next-generation-llm-that-outperforms-competitors-on-translation-quality-fluency-302198364.html)
+
+### 🇫🇷 H Company (Frankreich)
+  - H Company Overview: [Wikipedia – H (company)](https://en.wikipedia.org/wiki/H_%28company%29)
+  - $220M Seed Funding: [Sifted – H raises $220M seed round](https://sifted.eu/articles/h-raises-220m-seed-round)
+  - Agent Suite: [Crunchbase – H Company](https://www.crunchbase.com/organization/holistic-ai-0946)
+
+### 🇫🇷 Poolside AI (Frankreich)
+  - $500M Funding: [Poolside AI – Announcing our $500 million fundraise](https://www.poolside.ai/checkpoint/announcing-our-500-million-fundraise-to-make-progress-towards-agi)
+
+### 🇬🇧 Synthesia (UK)
+  - $180M Series D: [Synthesia – $180M Series D Funding](https://www.synthesia.io/post/synthesia-secures-180m-in-series-d-funding)
+  - Synthesia 2.0: [Synthesia – Introducing Synthesia 2.0](https://www.synthesia.io/post/introducing-synthesia-video-communications-platform)
+  - Shutterstock Partnership: [The Guardian – Synthesia Shutterstock deal](https://www.theguardian.com/technology/2025/apr/10/ai-avatar-generator-synthesia-video-footage-shutterstock)
+  - $200M GV Round: [RootData – Synthesia $200M funding](https://www.rootdata.com/news/409757)
+
+### 🇫🇷 Paris AI Summit 2025
+  - Paris AI Summit: [Le Monde – Paris AI Summit challenge](https://www.lemonde.fr/en/economy/article/2025/02/10/the-paris-ai-summit-a-challenge-in-a-fragmented-world_6737980_19.html)
+  - OpenLLM-France Lucie-7B: [GENCI – Lucie-7B Open Multilingual Model](https://genci.fr/resultats-projets/resultats/lucie-7b-open-multilingual-model-centered-french)
 
   ### Meta (Llama 4)
   - Llama 4 Scout/Maverick: [Wikipedia – Llama (language model)](https://en.wikipedia.org/wiki/Llama_%28language_model%29)
