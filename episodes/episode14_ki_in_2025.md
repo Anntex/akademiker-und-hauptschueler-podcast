@@ -194,7 +194,7 @@
   ```mermaid
 %%{init: {'gantt': {'useWidth': 1600, 'barHeight': 28, 'fontSize': 25, 'sectionFontSize': 25, 'leftPadding': 240, 'titleTopMargin': 30, 'topPadding': 60, 'numberSectionStyles': 4}, 'themeVariables': {'fontSize': '28px', 'ganttTitleFontSize': '32px', 'ganttAxisFontSize': '24px'}}}%%
 gantt
-  title Foundation Models 2025 - Monatsuebersicht
+  title Foundation Models 2025 - Monthly Overview in 2025
   dateFormat YYYY-MM-DD
   axisFormat %b
   tickInterval 1month
@@ -220,9 +220,9 @@ gantt
 
   section 🔵 Perplexity
   🔵 Assistant Android :milestone, pplx_assistant, 2025-01-23, 0d
-  🔵 Comet angekuendigt :milestone, pplx_comet_announce, 2025-02-24, 0d
+  🔵 Comet announced :milestone, pplx_comet_announce, 2025-02-24, 0d
   🔵 Comet Launch :milestone, pplx_comet_launch, 2025-07-09, 0d
-  🔵 Comet kostenlos :milestone, pplx_comet_free, 2025-10-02, 0d
+  🔵 Comet free ver :milestone, pplx_comet_free, 2025-10-02, 0d
   🔵 Patents :milestone, pplx_patents, 2025-10-30, 0d
   🔵 Comet Android :milestone, pplx_comet_android, 2025-11-20, 0d
 
@@ -253,7 +253,7 @@ gantt
   section 🟧 Alibaba
   🟧 Qwen 2.5-Max :milestone, alibaba_qwen25max, 2025-01-29, 0d
   🟧 Wan 2.1 open source :milestone, alibaba_wan21, 2025-02-25, 0d
-  🟧 Qwen 3 angekuendigt :milestone, alibaba_qwen3_announce, 2025-04-01, 0d
+  🟧 Qwen 3 announced :milestone, alibaba_qwen3_announce, 2025-04-01, 0d
   🟧 Qwen Chatbot :milestone, alibaba_qwen_chatbot, 2025-11-18, 0d
 
   section 🔷 Baidu
@@ -288,7 +288,7 @@ gantt
 
   section ⬛ xAI
   ⬛ Grok 3 :milestone, xai_grok3, 2025-02-18, 0d
-  ⬛ xAI kauft X :milestone, xai_buys_x, 2025-03-28, 0d
+  ⬛ xAI aquires X :milestone, xai_buys_x, 2025-03-28, 0d
   ⬛ Grok 3 Oracle :milestone, xai_oracle, 2025-06-17, 0d
   ⬛ Grok 4 Tesla :milestone, xai_grok4, 2025-07-10, 0d
   ⬛ Grok 2.5 open :milestone, xai_grok25_oss, 2025-08-23, 0d
@@ -304,17 +304,17 @@ gantt
   🦙 Llama 4 Behemoth :milestone, meta_behemoth, 2025-05-15, 0d
 
   section 🇩🇪 Aleph Alpha
-  🇩🇪 T-Free Architektur :milestone, aa_tfree, 2025-01-15, 0d
-  🇩🇪 thingsTHINKING Akquisition :milestone, aa_things, 2025-04-10, 0d
-  🇩🇪 Pharia Industrial HMI :milestone, aa_hmi, 2025-04-22, 0d
-  🇩🇪 STACKIT Partnerschaft :milestone, aa_stackit, 2025-05-15, 0d
+  🇩🇪 T-Free Architecture :milestone, aa_tfree, 2025-01-15, 0d
+  🇩🇪 thingsTHINKING aquisition :milestone, aa_things, 2025-04-10, 0d
+  🇩🇪 Pharia Industrial HMIs :milestone, aa_hmi, 2025-04-22, 0d
+  🇩🇪 STACKIT Collaboration :milestone, aa_stackit, 2025-05-15, 0d
 
   section 🇩🇪 DeepL
   🇩🇪 DeepL Agent Launch :milestone, deepl_agent, 2025-09-15, 0d
 
   section 🇫🇷 H Company
   🇫🇷 Tester H Agent :milestone, h_tester, 2025-06-15, 0d
-  🇫🇷 CEO Wechsel Pivot :milestone, h_pivot, 2025-06-20, 0d
+  🇫🇷 CEO Pivot :milestone, h_pivot, 2025-06-20, 0d
 
   section 🇫🇷 Poolside AI
   🇫🇷 500M Funding AGI :milestone, poolside_funding, 2025-03-15, 0d
@@ -327,12 +327,12 @@ gantt
   section 🇪🇺 EU Events
   🇫🇷 Paris AI Summit :milestone, paris_summit, 2025-02-10, 0d
 
-  section 🌍 Regulierung
-  🇪🇺 EU AI Act Verbote :milestone, eu_feb, 2025-02-02, 0d
+  section 🌍 Regulation
+  🇪🇺 EU AI Act bans :milestone, eu_feb, 2025-02-02, 0d
   🇨🇳 CN AI Governance :milestone, cn_governance, 2025-07-15, 0d
-  🇪🇺 EU GPAI Pflichten :milestone, eu_gpai, 2025-08-02, 0d
+  🇪🇺 EU GPAI Obligations :milestone, eu_gpai, 2025-08-02, 0d
   🇨🇳 CN Content Labels :milestone, cn_labeling, 2025-09-01, 0d
-  🇩🇪 DE Bund-Laender :milestone, de_streit, 2025-09-15, 0d
+  🇩🇪 DE Bund-Länder dispute :milestone, de_streit, 2025-09-15, 0d
   🇨🇳 CN Cybersecurity :milestone, cn_cybersec, 2025-10-15, 0d
 ```
 
